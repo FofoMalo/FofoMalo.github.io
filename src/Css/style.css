@@ -1,0 +1,13 @@
+:root {
+  --primary-color: hsl(284, 89%, 74%);
+  --darken-primary-color: hsl(284, 89%, 25%);
+  --lighten-primary-color: hsl(284, 89%, 50%);
+}
+body {
+  margin: O;
+  padding: 0;
+  background-color: #fff;
+  font-family: sans-serif;
+  height: auto;
+  min-width: fit-content;
+}
