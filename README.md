@@ -17,15 +17,16 @@ très heureux quelques part dans le monde
 vous avez la possiblité si vous le souhaitez de rencontrer le bénéficiaire.
 nous installons après coup, des outils libre d'apprentissage, merci à tous les contributeurs OpenSource.
 Vous souhaitez faire partie de l'équipe? rien de bien compliqué 
-suivez le lien [Association-Jeunes et Numériques] (https://fofomalo.github.io)
+suivez le lien **[Association-Jeunes et Numériques]** (https://fofomalo.github.io)
 
 ## Nous contacter
 En France, notre siège social à Rouen, nous sommes ouvert, et serons ravis de partager un café avec vous.
 En ligne, n'hésitez pas à aller visiter notre page, vos retours nous aiderons à améliorer.
-## la newsletters
 
+
+## la newsletters
 vous souhaitez garder le contact pour recevoir les informations de notre associations.
 laissez votre adress mail et nous nous ferons une joie de vous tenir informer de toutes les activités, que nous menons et vous serez bien entendu conviez lors de nos différentes collecte à travers le pays et lors des remises au bénéficiares.
 
-vous souhaitez contribuer autrement? un don? pourquoi pas :smile: vous recevez un reçu fiscal déductible et rendez un enfant heureux.
+vous souhaitez contribuer autrement? un don? pourquoi pas? :smile: vous recevez un reçu fiscal déductible et rendez un enfant heureux.
 
