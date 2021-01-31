@@ -2,4 +2,8 @@
 /cache/*
 !/cache/ .gitkeep
 *.ini
-!/.ini/ .desktop.ini
+/node_modules/*
+*.vscode
+
+
+

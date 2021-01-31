@@ -1,13 +1,71 @@
+/*font used in document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --primary-color: hsl(284, 89%, 74%);
   --darken-primary-color: hsl(284, 89%, 25%);
   --lighten-primary-color: hsl(284, 89%, 50%);
+  --transparent-primary-color: hsl(284, 89%, 90%);
+  --background-color: black;
 }
-body {
-  margin: O;
+/*custom-structures*/
+html, body {
+  margin: 0;
   padding: 0;
-  background-color: #fff;
-  font-family: sans-serif;
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
   height: auto;
   min-width: fit-content;
+  font-size: 16px;
+}
+/*header-custom */
+.header {
+  background-color: var(--transparent-primary-color);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  justify-content: left;
+}
+.nav-item {
+  display: inline;
+  text-align: right;
+  text-decoration: none;
+  border: 1px 5px 10px solid;
+  padding: .5em;
+  background-color: var(--darken-primary-color);
+  justify-content: space-between;
+}
+.nav-item :hover {
+  cursor: pointer;
+  color: var(--lighten-primary-color);
+}
+/*end-header-custom */
+/*Main-page custom*/
+.main {
+  grid-template-columns: repeat(2; 1fr);
+
+  width: 75%;
+  height: 80%;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+  color: var(--primary-color);
+}
+
+.footer {
+  background-color: var(--darken-primary-color);
 }

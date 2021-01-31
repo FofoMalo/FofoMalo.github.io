@@ -5,57 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,0, user-scalable=0">
     <meta name="description" content="l'Association jeunes & Numériques">
     <!-- Bootstrap CSS and my stylesheet-->
-    <link rel="stylesheet" href="/src/Css/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/src/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/src/Css/style.css">
     <link rel="icon" type="image/png" href="/src/Img/Saved Pictures/jn 73x73.png" class="img-fluid rounded" />
     <title>Association Jeunes & Numériques</title>
   </head>
   <body>
-    <header class="jumbotron">
-      <div class="mainheader">
-      <a href="#">
-      <img src="/src/Img/Saved Pictures/jn 73x73@2x.png" alt="logo Jeunes & Numériques">
-      </a>
-      <div class="navbar">
-        <ul class="menutoogle">
-          <li class="welcome"><a href="#">Acceuil</a></li>
-          <li class="woweare"><a href="#">Qui nous sommes</a></li>
-          <li class="event"><a href="#">Nos évenements</a></li>
-          <li class="bemember"><a href="#">Devenir Membre</a></li>
-        </ul>
+    <header class="header">
+      <div class="logo">
+        <a href="#">
+          <img class="logo" src="./src/Img/jn 73x73@2x.png" alt="logo Jeunes & Numériques">
+          </a>
+          <span class="title"></span><h1>Association Jeunes & Numériques</h1>
       </div>
-      <div class="breadcrumb">
-        <ul class="menu">
-          <li><a href="#">Acceuil</a></li>
-          <li><a href="#">Qui nous sommes</a></li>
-          <li><a href="#">Nos évenements</a></li>
-          <li><a href="#">Devenir Membre</a></li>
-        </ul>
-      </div>
+      
+        <nav class="navbar navbar-expand-lg navbar">
+          <div class="collapse navbar-collapse">
+            <div class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Acceuil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Qui nous sommes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nos évenements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Devenir Membre</a></li>
+              </ul>
+            </div>
+            <div class="hamburger-menu">
+              
+            </div>
+        </nav>
       </div>
     </header>
-    <main>
-      <h1>Association Jeunes & Numériques</h1>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="/src/view/img/R9980af751b376d8283683172c1df4c0b.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/src/view/img/jeunes-freres-soeurs-ordinateur-portable_23-2148355137.jpg" class="d-block w-100" alt="jeunes tenant un ordi">
-          </div>
-          <div class="carousel-item">
-            <img src="/src/view/img/jeunes-inter.jpg" class="d-block w-100" alt="meltingpot ados">
+    <main class="main-content">
+      <p>Nous sommes une petite association dont le but est de collecter et distribuer des
+         ordinateurs recyclés, à des jeunes hommes et femmes dans le besoin.</p>
+      <div class="carrousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./src/Img/img-recyclage-1.jpg" class="d-block w-50" 
+                alt="image img-recyclage-1">
+            </div>
+            <div class="carousel-item">
+              <img src="./src/Img/recyclage-ordinateur-bac-boite-électronique-1.jpg" 
+              class="d-block w-50" alt="image bac-boite-electronique">
+            </div>
+            <div class="carousel-item">
+              <img src="./src/Img/jeunes-avec-portable.jpg" class="d-block w-50" alt="Ados avec oordinateur">
+            </div>
           </div>
         </div>
       </div>
-      <div class="texactivity">
+      <div class="text-Activity">
         <span><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Soluta nulla consequatur maiores eos vitae illum culpa!
           Quibusdam neque earum fugit sunt,
           accusantium nam tenetur reiciendis nulla id quia consequuntur vitae.</p></span>
       </div>
-      <div class="texactivity">
+      <div class="text-Activity">
         <span><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Soluta nulla consequatur maiores eos vitae illum culpa!
           Quibusdam neque earum fugit sunt,
@@ -73,19 +81,16 @@
         </div>
       </section>
     </aside>
-
-    <footer>
+    <footer class="footer">
       <div class="copyright">
-        <p>     &copy; 2021 Association Jeunes&nbsp;& Numériques</p>
+        <p>&copy; 2021 Association-Jeunes&nbsp;& Numériques</p>
       </div>
-      <button class="btn btn-button" >testbootstrap</button>
-
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous">
     </script>
-    <script src="/src/Css/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="/src/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
-
