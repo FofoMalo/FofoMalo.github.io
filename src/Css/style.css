@@ -3,8 +3,8 @@
 :root {
   --primary-color: hsl(284, 71%, 64%);
   --darken-primary-color: hsl(284, 70%, 51%);
-  --lighten-primary-color: hsl(0, 0%, 100%);
-  --transparent-primary-color: hsl(285, 21%, 93%);
+  --lighten-primary-color: hsl(284, 70%, 75%);
+  --transparent-primary-color: hsl(284, 21%, 93%);
   --background-color: black;
 }
 
@@ -44,13 +44,24 @@ body {
   padding: 5px;
   justify-content: left;
 }
-title.p {
-  text-align: center;
+.title {
+  text-align: auto;
   display: block;
   font-size: 1.6rem;
-  color: black;
+  color: var(--background-color);
   font-weight: 700;
 }
+.hamburger-menu {
+  font-size: 2.6rem;
+  color: rgb(12, 11, 11);
+  cursor: pointer;
+  position: relative;
+  z-index: 1500;
+}
+.hamburger-menu.fa-times {
+  display: none;
+}
+
 .nav-item {
   display: inline;
   text-align: right;
@@ -67,12 +78,14 @@ title.p {
   cursor: pointer;
   color: var(--lighten-primary-color);
 }
-
 /*end-header-custom */
 
 /*Main-page custom*/
 .main-content {
   display: flex;
+  margin: 5px;
+  
+
 }
 
 .footer {
