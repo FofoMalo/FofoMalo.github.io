@@ -1,29 +1,35 @@
 /*font used in document */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --primary-color: hsl(284, 89%, 74%);
-  --darken-primary-color: hsl(284, 89%, 25%);
-  --lighten-primary-color: hsl(284, 89%, 50%);
+  --primary-color: hsl(284, 71%, 64%);
+  --darken-primary-color: hsl(284, 70%, 51%);
+  --lighten-primary-color: hsl(0, 0%, 100%);
   --transparent-primary-color: hsl(285, 21%, 93%);
   --background-color: black;
 }
-/*custom-structures*/
-html, body {
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
-  font-family: 'Open Sans', sans-serif;
-  height: auto;
-  min-width: fit-content;
+  box-sizing: border-box;
+} 
+
+/*custom-structures*/
+html {
   font-size: 16px;
 }
-p {
-  color: white;
+body {
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
+  min-width: fit-content;
 }
+
 /*header-custom */
 .header {
   background-color: var(--transparent-primary-color);
-  height: 10%;
+  height: auto;
   width: 100%;
   display: flex;
   position: fixed;
@@ -33,40 +39,40 @@ p {
 }
 .logo {
   display: flex;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 70px;
   padding: 5px;
   justify-content: left;
+}
+title.p {
+  text-align: center;
+  display: block;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 700;
 }
 .nav-item {
   display: inline;
   text-align: right;
   text-decoration: none;
-  border: 1px 5px 10px solid;
   padding: .5em;
   background-color: var(--darken-primary-color);
   justify-content: space-between;
   float: left;
 }
+.nav-link {
+  color: white;
+}
 .nav-item :hover {
   cursor: pointer;
   color: var(--lighten-primary-color);
 }
-/*end-header-custom */
-/*Main-page custom*/
-.main {
-  grid-template-columns: repeat(2, 1fr);
-  grid-area: inherit;
-  width: 75%;
-  height: 80%;
-  display: flex;
-}
 
-.title {
-  text-align: center;
-  font-size: 1.5rem;
-  color: ;
-  display: block;
+/*end-header-custom */
+
+/*Main-page custom*/
+.main-content {
+  display: flex;
 }
 
 .footer {
