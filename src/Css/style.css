@@ -6,6 +6,7 @@
   --lighten-primary-color: hsl(284, 70%, 75%);
   --transparent-primary-color: hsl(284, 21%, 93%);
   --background-color: black;
+  --aside-color: hsl(191, 92%, 29%);
 }
 
 *,
@@ -32,7 +33,7 @@ body {
   height: auto;
   width: 100%;
   display: flex;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 999;
@@ -53,10 +54,9 @@ body {
 }
 .hamburger-menu {
   font-size: 2.6rem;
-  color: rgb(12, 11, 11);
+  color: rgb(160, 17, 17);
   cursor: pointer;
   position: relative;
-  z-index: 1500;
 }
 .hamburger-menu.fa-times {
   display: none;
@@ -82,13 +82,57 @@ body {
 
 /*Main-page custom*/
 .main-content {
+  background-color: white;
   display: flex;
-  margin: 5px;
-  
+  flex-wrap: nowrap;
+  position: relative;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  margin: 0px;
+}
+span.intro-title {
+  display: inline-flex;
+  font-weight: 700;
+  color: var(--primary-color);
+  justify-content: center;
 
 }
+.container-text area {
+  display: block;
+}
 
+span.h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+  justify-content: right;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.container-text area p {
+  color: var(--lighten-primary-color);
+}
+
+.Activity {
+  display: block;
+}
+
+/*Aside-custom*/
+.aside-container {
+  background-color: var(--aside-color);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  width: 55%;
+  margin: 0px;
+  float: right;
+}
+
+/*footer-custom*/
 .footer {
   background-color: var(--darken-primary-color);
-  width: auto;
+  width: 100%;
+  position: fixed
 }
