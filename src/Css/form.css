@@ -1,0 +1,148 @@
+/*font used in document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --primary-color: hsl(284, 71%, 64%);
+  --darken-primary-color: hsl(284, 70%, 51%);
+  --lighten-primary-color: hsl(284, 70%, 75%);
+  --transparent-primary-color: hsl(284, 21%, 93%);
+  --background-color: black;
+  --aside-color: hsl(191, 92%, 29%);
+  --default-space: 20px;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} 
+
+/*custom-structures*/
+html {
+    box-sizing: border-box;
+}
+body {
+  background-color: var(--transparent-primary-color);
+  font-family: 'Open Sans', sans-serif;
+  min-width: min-content;
+  font-size: 1rem;
+}
+/*header-custom */
+.header {
+  background-color: var(--transparent-primary-color);
+  height: auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.logo {
+  display: flex;
+  width: 80px;
+  height: 70px;
+  padding: 5px;
+  justify-content: left;
+}
+/*Header title used on index.html*/
+.title {
+  text-align: center;
+  display: block;
+  font-size: 1.6rem;
+  color: var(--background-color);
+  font-weight: 700;
+}
+.nav-item {
+  display: inline;
+  text-align: left;
+  text-decoration: none;
+  padding: .5em;
+  background-color: var(--darken-primary-color);
+  justify-content: space-between;
+  float: left;
+}
+.nav-link {
+  color: white;
+}
+.nav-item :hover {
+  cursor: pointer;
+  color: var(--lighten-primary-color);
+}
+/*end of header custom*/
+
+/*start of forms custom*/
+/*introduction, title after header custom*/
+.intro {
+  border: 1px solid var(--background-color);
+  border-radius: 5px;
+  padding: 0 var(--default-space);
+  margin: 15px;
+  justify-self: center;
+  background-color: var(--darken-primary-color);
+}
+.forms-section {
+  margin: 0 auto;
+}
+.forms-section>h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  justify-content: center;
+  padding: 5px;
+}
+
+.fieldset {
+  padding: var(--default-space);
+  background-color: var(--aside-color);
+  border: 1px solid var(--lighten-primary-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: var(--default-space);
+}
+.legend {
+  font-size: 1.3em;
+  padding: 0 var(--default-space);
+  border: 1px solid var(--lighten-primary-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+.fieldset div:first-child {
+  margin-bottom: var(--default-space);
+}
+input, select, button {
+  font-size: inherit;
+}
+form input {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid var(--aside-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button {
+  background-color: linear-gradient(#06758e, #0a1011);
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.button :hover {
+  cursor: pointer;
+  background-color: linear-gradient(#c262e4,#45075c );
+  color: var(--background-color);
+}

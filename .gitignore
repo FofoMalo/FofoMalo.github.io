@@ -4,6 +4,6 @@
 *.ini
 /node_modules/*
 *.vscode
-
+/build/
 
 

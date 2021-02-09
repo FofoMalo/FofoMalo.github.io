@@ -7,13 +7,13 @@
     <!-- Bootstrap CSS and my stylesheet-->
     <link rel="stylesheet" href="/src/Css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/Css/style.css">
-    <link rel="icon" type="image/png" href="./src/Img/jn_73x73.png" class="img-fluid rounded">
+    <link rel="icon" type="image/png" href="/src/Img/jn_73x73.png" class="img-fluid rounded">
     <title>Association Jeunes & Numériques</title>
   </head>
   <body>
     <header class="header">
       <div class="logo">
-        <a href="#"><img class="logo" src="./src/Img/jn_73x73@2x.png" alt="logo Jeunes & Numériques"></a>
+        <a href="#"><img class="logo" src="/src/Img/jn_73x73@2x.png" alt="logo Jeunes & Numériques"></a>
       </div>
       <span class="title">Association Jeunes & Numériques</span>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -24,29 +24,30 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarTogglerAjn">
               <div class="navbar" id="navbarTooglerAjn">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item"><a class="nav-link" href="#">Acceuil</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Qui nous sommes</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Nos évenements</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Devenir Membre</a></li>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination justify-content-end">
+                  <li class="nav-item"><a class="nav-link" href="/index.html">Acceuil</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/src/view/events.html">Nos évenements</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/src/view/membre.html">Devenir Membre</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </nav>
     </header>
-    <h1><span class="intro-title">Au plus près de ceux qui ne peuvent avoir accès au Numériques</span></h1>
+    <div class="intro">
+      <h1><span class="intro-title">Au plus près de ceux qui ne peuvent avoir accès au Numériques</span></h1>
+    </div>
     <!-- main page start here--> 
     <div class="container">
       <div class="carrousel">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./src/Img/jeunes-avec-portable.jpg" class="d-block w-100" 
+                <img src="/src/Img/jeunes-avec-portable.jpg" class="d-block w-100" 
                 alt="Ados heureux avec un ordinateur">
             </div>
             <div class="carousel-item">
-              <img src="./src/Img/jeunes-inter.jpg" 
+              <img src="/src/Img/jeunes-inter.jpg" 
               class="d-block w-100" alt="Jeunes-se tenant la main">
             </div>
           </div>
@@ -66,8 +67,7 @@
         </div>
       </section>
     </aside>
-    
-      <main class="main-content">
+    <main class="main-content">
         <div class="container-text area">
           <h2> <span class="h2">Que fais notre association?</span> </h2>
           <p>Nous sommes une petite association dont le but est de collecter et distribuer des
@@ -83,10 +83,10 @@
              Quibusdam neque earum fugit sunt,
              accusantium nam tenetur reiciendis nulla id quia consequuntur vitae.</p>
         </div> 
-      </main>
+    </main>
       
-      <footer class="footer">
-      <nav class="navbar navbar-expand-lg navbar">
+    <footer class="footer">
+      <div class="navbar navbar-expand-lg navbar">
         <div class="collapse navbar-collapse">
           <div class="navbar">
             <ul class="navbar-nav">
@@ -97,7 +97,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
       <div class="copyright">
         <p>&copy; 2021 Association-Jeunes&nbsp;& Numériques</p>
       </div>

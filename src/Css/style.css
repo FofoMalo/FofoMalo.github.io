@@ -14,17 +14,18 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 } 
 
 /*custom-structures*/
 html {
   font-size: 16px;
+  box-sizing: border-box;
 }
 body {
   background-color: var(--lighten-primary-color);
   font-family: 'Open Sans', sans-serif;
-  min-width: fit-content;
+  min-width: min-content;
 }
 
 /*header-custom */
@@ -73,6 +74,15 @@ body {
 /*end-header-custom */
 
 /*Main-page custom*/
+
+.intro {
+  border: 1px solid var(--background-color);
+  border-radius: 5px;
+  padding: 0 var(--default-space);
+  margin: 15px;
+  justify-self: center;
+  background-color: var(--darken-primary-color);
+}
 .main-content {
   background-color: var(--transparent-primary-color);
   display: flex;
@@ -85,7 +95,7 @@ body {
 span.intro-title {
   display: inline-flex;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1em;
   color: var(--background-color);
   justify-content: center;
   padding: 5px;
@@ -116,13 +126,13 @@ span.h2 {
 .aside-container {
   background-color: var(--aside-color);
   display: flex;
-  flex-wrap: nowrap;
   padding: 10px;
   width: 20.5%;
   height: 100vh;
   margin: 0px;
   float: right;
 }
+
 
 /*footer-custom*/
 .footer {
