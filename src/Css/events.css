@@ -35,10 +35,9 @@ body {
   width: 100%;
   display: flex;
   position: relative;
-  border-bottom: 1px solid var(--primary-color);
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 999;
 }
 .logo {
   display: flex;
@@ -66,7 +65,7 @@ body {
   float: left;
 }
 .nav-link {
-  color: var(--transparent-primary-color);
+  color: white;
 }
 .nav-item :hover {
   cursor: pointer;
@@ -83,88 +82,23 @@ body {
   margin: 15px;
   justify-self: center;
   background-color: var(--darken-primary-color);
+  display: flex;
 }
 .main-content {
   background-color: var(--transparent-primary-color);
   display: flex;
-  position: relative;
   padding: 0 var(--default-space);
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin: 0px;
-  line-height: 25.2px;
-
   }
-/*intro-main page custom*/
-span.intro-title {
-  display: inline-flex;
-  font-weight: 700;
-  font-size: 1em;
-  color: var(--background-color);
-  justify-content: center;
-  padding: 5px;
 
-}
-.container-text-area {
-  display: block;
-  flex-wrap: wrap;
+.card {
+  display: flex;
 }
 
-.sub-title {
-  font-weight: 700;
+.card-title {
   color: var(--primary-color);
-  justify-content: right;
-  padding: 5px;
-  font-size: 1.2em;
-}
-
-.main-text {
-  color: var(--background-color);
-  text-align: left;
-  word-wrap: break-word;
-}
-
-.Activity {
-  display: block;
-}
-
-/*Aside-custom*/
-.aside-container {
-  background-color: var(--aside-color);
-  display: flex;
-  position: relative;
-  padding: 0 var(--default-space);
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  float: none;
-}
-.section-container {
-  display: block;
-  position: relative;
-}
-.aside-title {
-  justify-content: center;
-  text-align: left;
-  color: var(--transparent-primary-color);
-  font-size: 1.2em;
-}
-
-.aside-container {
-  display: flex;
-}
-.aside-text-contain {
-  display: block;
-  color: var(--transparent-primary-color);
-  justify-content: left;
-  text-align: left;
-  word-wrap: none;
-}
-
-/*footer-custom*/
-.footer {
-  position: relative;
-  float: none;
-  display: block;
-  line-height: 25.2px;
+  font-size: 1.3rem;
+  font-weight: 700;
 }

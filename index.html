@@ -19,9 +19,15 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerAjn" aria-controls="navbarTogglerAjn" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarTogglerAjn" 
+            aria-controls="navbarTogglerAjn" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerAjn">
               <div class="navbar" id="navbarTooglerAjn">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination justify-content-end">
@@ -38,7 +44,7 @@
       <h1><span class="intro-title">Au plus près de ceux qui ne peuvent avoir accès au Numériques</span></h1>
     </div>
     <!-- main page start here--> 
-    <div class="container">
+    <div class="container-fluid">
       <div class="carrousel">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -54,46 +60,52 @@
         </div>
       </div>
     </div>
+    <main class="main-content">
+        <div class="container-text-area">
+          <h2 class="sub-title">Que fais notre association?</h2>
+          <div class="main-text-contain">
+            <p><span class="main-text">sommes une petite association dont le but est de collecter et distribuer des
+              ordinateurs recyclés, à des jeunes hommes et femmes dans le besoin </br> 
+              Nous essayons du mieux de redonner une seconde vie, à vos ordinateurs en rendant des enfants heureux.</span> 
+            </p>
+            <p><span class="main-text">Nous essayons du mieux que se peut de procéder à un recyclage de vos ordinateurs.</span> 
+            </p>
+            <p><span class="main-text">L'année 2020 a prouvé la necessité de donner, un accès au numérique encore plus étendu à nos jeunes femmes et jeunes hommes.
+            </br>De prochaines générations de développeurs naîtront peut être de nos bénéficiaires.</span> 
+            </p>
+          </div>
+        </div> 
+    </main>
     <aside class="aside-container">
       <section class="section-container">
-        <h2>Sur le terrain</h2>
+        <div class="aside-title-contain">
+          <h2><span class="aside-title">Sur le terrain</span></h2>
+        </div>
         <div class="container">
           <article class="paragraph">
-            <h4><span class="aside-h4">La collecte des ordinateurs</span></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque natus architecto provident voluptatum ratione saepe esse quam voluptatibus?
-              Eos deleniti vel beatae voluptatibus expedita doloribus adipisci eum similique nihil cum.</p>
+            <div class="sub-title-contain">
+              <h4 class="sub-title">La collecte des ordinateurs</h4>
+            </div>
+            <div class="aside-text-contain">
+              <p>Nous vous donnons rendez-vous dans les lieux de collecte. </br> 
+                Nous procédons avec des membres par régions qui coodonnent les équipes sur le terrain.</br>
+                Si vous souhaitez faire partie de l'équipe du terrain, la collecte, le tri, et la restauration</br>
+                NOus prions de bien vouloir prendre contact avec l'association, en remplissant le formulaire.
+                <a href="/src/view/membre.html">ici</a>
+              </p>
+            </div> 
           </article>
         </div>
       </section>
     </aside>
-    <main class="main-content">
-        <div class="container-text area">
-          <h2> <span class="h2">Que fais notre association?</span> </h2>
-          <p>Nous sommes une petite association dont le but est de collecter et distribuer des
-            ordinateurs recyclés, à des jeunes hommes et femmes dans le besoin </br> 
-            Nous essayons du mieux de redonner une seconde vie, à vos ordinateurs en rendant des enfants heureux.
-          </p>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Soluta nulla consequatur maiores eos vitae illum culpa!
-             Quibusdam neque earum fugit sunt,
-             accusantium nam tenetur reiciendis nulla id quia consequuntur vitae.</p>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Soluta nulla consequatur maiores eos vitae illum culpa!
-             Quibusdam neque earum fugit sunt,
-             accusantium nam tenetur reiciendis nulla id quia consequuntur vitae.</p>
-        </div> 
-    </main>
-      
     <footer class="footer">
       <div class="navbar navbar-expand-lg navbar">
         <div class="collapse navbar-collapse">
           <div class="navbar">
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#">Acceuil</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Qui nous sommes</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Nos évenements</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Devenir Membre</a></li>
+              <li class="nav-item"><a class="nav-link" href="/index.html">Acceuil</a></li>
+              <li class="nav-item"><a class="nav-link" href="/src/view/events.html">Nos évenements</a></li>
+              <li class="nav-item"><a class="nav-link" href="/src/view/membre.html">Devenir Membre</a></li>
             </ul>
           </div>
         </div>

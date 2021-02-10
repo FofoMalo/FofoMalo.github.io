@@ -4,7 +4,7 @@
   --primary-color: hsl(284, 71%, 64%);
   --darken-primary-color: hsl(284, 70%, 51%);
   --lighten-primary-color: hsl(284, 70%, 75%);
-  --transparent-primary-color: hsl(284, 21%, 93%);
+  --transparent-primary-color: hsl(285, 22%, 93%);
   --background-color: black;
   --aside-color: hsl(191, 92%, 29%);
   --default-space: 20px;
@@ -124,6 +124,7 @@ form input {
   padding: 5px;
   width: 100%;
   border: 1px solid var(--aside-color);
+  background-color: #ffffff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -131,8 +132,7 @@ form input {
   -o-border-radius: 5px;
 }
 
-.button {
-  background-color: linear-gradient(#06758e, #0a1011);
+.bouton {
   border: 1px solid var(--primary-color);
   padding: 8px;
   border-radius: 5px;
@@ -141,8 +141,11 @@ form input {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.button :hover {
+.bouton :hover {
   cursor: pointer;
   background-color: linear-gradient(#c262e4,#45075c );
   color: var(--background-color);
+}
+.footer {
+  background-color: var(--transparent-primary-color);
 }
