@@ -3,83 +3,116 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,0, user-scalable=0">
-    <meta name="description" content="l'Association jeunes & Numériques">
+    <meta name="description" content="L'association Jeunes & Numériques, au plus près de ceux qui sont dans le besoin d'un accès au numérique. notre crédo reconditionner vos anciens ordinateurs au profit de personnes dans le besoin.">
+    <meta name="og:url" content="https://fofomalo.github.io/">
+    <meta name="og:title" content="Association-Jeunes & Numériques">
+    <meta name="og:type" content="website">
+    <meta name="og:description" content="Une association, qui permet aux jeunes un accès au numérique grâce au reconditionnement">
+    <meta name="og:image" content="https://fofomalo.github.io/icon.png">
     <!-- Bootstrap CSS and my stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="/src/Css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/Css/style.css">
     <link rel="icon" type="image/png" href="/src/Img/jn_73x73.png" class="img-fluid rounded">
+    <link rel="stylesheet" href="/src/Css/mediaScreen.css">
     <title>Association Jeunes & Numériques</title>
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <a href="#"><img class="logo" src="/src/Img/jn_73x73@2x.png" alt="logo Jeunes & Numériques"></a>
-      </div>
-      <span class="title">Association Jeunes & Numériques</span>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarTogglerAjn" 
-            aria-controls="navbarTogglerAjn" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="logo">
+          <a href="#"><img class="logo" src="/src/Img/jn_73x73@2x.png" alt="logo Jeunes & Numériques"></a>
+        </div>
+        <span class="title-asso">Association Jeunes & Numériques</span>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/src/view/events.html">A &amp; J-N</a>
+          <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerAjn">
-              <div class="navbar" id="navbarTooglerAjn">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination justify-content-end">
-                  <li class="nav-item"><a class="nav-link" href="/index.html">Acceuil</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/src/view/events.html">Nos évenements</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/src/view/membre.html">Devenir Membre</a></li>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/view/events.html">Evènements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/view/membre.html">Devenir &nbsp;Membre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" 
+                href="#" 
+                id="navbarDropdown" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Acceuil</a></li>
+                  <li><a class="dropdown-item" href="/src/view/events.html">Evènements</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/src/view/membre.html">Devenir &nbsp;Membre</a></li>
                 </ul>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
     </header>
     <div class="intro">
-      <h1><span class="intro-title">Au plus près de ceux qui ne peuvent avoir accès au Numériques</span></h1>
+      <h1><span class="intro-title">Donner un meilleur accès du Numérique aux Jeunes!</span></h1>
     </div>
     <!-- main page start here--> 
-    <div class="container-fluid">
-      <div class="carrousel">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/src/Img/jeunes-avec-portable.jpg" class="d-block w-100" 
-                alt="Ados heureux avec un ordinateur">
-            </div>
-            <div class="carousel-item">
-              <img src="/src/Img/jeunes-inter.jpg" 
-              class="d-block w-100" alt="Jeunes-se tenant la main">
+    <main class="main-content">
+      <div class="main-contain-all">
+        <div class="container-fluid">
+          <div class="carrousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/src/Img/jeunes-avec-portable.jpg" class="d-block w-80" 
+                    alt="Ados heureux avec un ordinateur">
+                </div>
+                <div class="carousel-item">
+                  <img src="/src/Img/jeunes-inter.jpg" 
+                  class="d-block w-80" alt="Jeunes-se tenant la main">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <main class="main-content">
         <div class="container-text-area">
-          <h2 class="sub-title">Que fais notre association?</h2>
+          <h2 class="sub-title">Recycler des Ordinateurs pourquoi?</h2>
           <div class="main-text-contain">
-            <p><span class="main-text">sommes une petite association dont le but est de collecter et distribuer des
-              ordinateurs recyclés, à des jeunes hommes et femmes dans le besoin </br> 
-              Nous essayons du mieux de redonner une seconde vie, à vos ordinateurs en rendant des enfants heureux.</span> 
+            <p><span class="main-text">Nous sommes une association dont le but 
+              est de collecter, et distribuer des ordinateurs recyclés, 
+              au profit des jeunes femmes et hommes dans le besoin.
+              <br>Nous essayons du mieux que nous pouvons de redonner une seconde vie, 
+              à vos ordinateurs en rendant des enfants heureux.</span>
             </p>
-            <p><span class="main-text">Nous essayons du mieux que se peut de procéder à un recyclage de vos ordinateurs.</span> 
+            <p><span class="main-text">Nous procédons à un recyclage de vos ordinateurs.</span> 
             </p>
-            <p><span class="main-text">L'année 2020 a prouvé la necessité de donner, un accès au numérique encore plus étendu à nos jeunes femmes et jeunes hommes.
-            </br>De prochaines générations de développeurs naîtront peut être de nos bénéficiaires.</span> 
-            </p>
+            <p><span class="main-text">L'année 2020 a prouvé la necessité de donner, 
+              un accès au numérique encore plus étendu à nos jeunes femmes et jeunes hommes.
+            <br>De prochaines générations de développeurs naîtront peut être de nos bénéficiaires.</span>
+            vous souhaitez en savoir plus sur nos futurs activités?
+            <a href="https://fofomalo.github.io/src/view/events.html">nos évènements à venir</a>
+             
+           </p>
           </div>
         </div> 
     </main>
     <aside class="aside-container">
       <section class="section-container">
         <div class="aside-title-contain">
-          <h2><span class="aside-title">Sur le terrain</span></h2>
+          <h2><span class="aside-title">Proches des Jeunes, Ouverture sur le monde du numérique</span></h2>
         </div>
         <div class="container">
           <article class="paragraph">
@@ -87,11 +120,11 @@
               <h4 class="sub-title">La collecte des ordinateurs</h4>
             </div>
             <div class="aside-text-contain">
-              <p>Nous vous donnons rendez-vous dans les lieux de collecte. </br> 
-                Nous procédons avec des membres par régions qui coodonnent les équipes sur le terrain.</br>
-                Si vous souhaitez faire partie de l'équipe du terrain, la collecte, le tri, et la restauration</br>
-                NOus prions de bien vouloir prendre contact avec l'association, en remplissant le formulaire.
-                <a href="/src/view/membre.html">ici</a>
+              <p>Nous vous donnons rendez-vous dans les lieux de collecte.
+              <br>Nous procédons avec des membres par régions qui coodonnent les équipes sur le terrain.
+              <br>Si vous souhaitez faire partie de l'équipe du terrain, la collecte, le tri, et la restauration.
+              <br>Nous prions de bien vouloir prendre contact avec l'association, en remplissant le formulaire.
+                <a href="/src/view/membre.html">Devenir &nbsp;membres</a>
               </p>
             </div> 
           </article>
@@ -99,22 +132,23 @@
       </section>
     </aside>
     <footer class="footer">
+      <div class="copyright">
+        <p class="copyright-text">&copy; 2021 Association-Jeunes&nbsp;& Numériques</p>
+      </div>
       <div class="navbar navbar-expand-lg navbar">
         <div class="collapse navbar-collapse">
-          <div class="navbar">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="/index.html">Acceuil</a></li>
-              <li class="nav-item"><a class="nav-link" href="/src/view/events.html">Nos évenements</a></li>
-              <li class="nav-item"><a class="nav-link" href="/src/view/membre.html">Devenir Membre</a></li>
+          <div class="home-footer">
+            <ul class="items-footer">
+              <li class="footer-item"><a class="footer-link" href="/index.html">Acceuil</a></li>
+              <li class="footer-item"><a class="footer-link" href="/src/view/events.html">Nos évenements</a></li>
+              <li class="footer-item"><a class="footer-link" href="/src/view/membre.html">Devenir Membre</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <p>&copy; 2021 Association-Jeunes&nbsp;& Numériques</p>
-      </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
             crossorigin="anonymous">

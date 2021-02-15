@@ -1,12 +1,22 @@
 /*font used in document */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --primary-color: hsl(284, 71%, 64%);
-  --darken-primary-color: hsl(284, 70%, 51%);
-  --lighten-primary-color: hsl(284, 70%, 75%);
+  --primary-color: #c262e4;
+  --darken-primary-color: hsl(284, 71%, 35%);
+  --lighten-primary-color: hsl(284, 41%, 84%);
   --transparent-primary-color: hsl(285, 22%, 93%);
-  --background-color: black;
+  --border-color: black;
   --aside-color: hsl(191, 92%, 29%);
+  --gradient-color:linear-gradient(
+    to right,
+    var(--darken-primary-color),
+    var(--aside-color)
+    );
+  --gradient-color-alt:linear-gradient(
+    to right,
+    var(--aside-color),
+    var(--primary-color)
+    );
   --default-space: 20px;
   box-sizing: border-box;
 }
@@ -22,24 +32,13 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: var(--lighten-primary-color);
+  background-color: var(--transparent-primary-color);
   font-family: 'Open Sans', sans-serif;
   min-width: min-content;
   font-size: 1rem;
 }
 
 /*header-custom */
-.header {
-  background-color: var(--transparent-primary-color);
-  height: auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  border-bottom: 1px solid var(--primary-color);
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
 .logo {
   display: flex;
   width: 80px;
@@ -47,42 +46,27 @@ body {
   padding: 5px;
   justify-content: left;
 }
+
 /*Header title*/
-.title {
+.title-asso {
   text-align: auto;
   display: block;
   font-size: 1.6rem;
-  color: var(--background-color);
+  color: var(--border-color);
   font-weight: 700;
 }
 
-.nav-item {
-  display: inline;
-  text-align: left;
-  text-decoration: none;
-  padding: .5em;
-  background-color: var(--darken-primary-color);
-  justify-content: space-between;
-  float: left;
-}
-.nav-link {
-  color: var(--transparent-primary-color);
-}
-.nav-item :hover {
-  cursor: pointer;
-  color: var(--lighten-primary-color);
-}
 /*end-header-custom */
 
 /*Main-page custom*/
 
 .intro {
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 0 var(--default-space);
   margin: 15px;
   justify-self: center;
-  background-color: var(--darken-primary-color);
+  background-image: var(--gradient-color-alt);
 }
 .main-content {
   background-color: var(--transparent-primary-color);
@@ -99,8 +83,8 @@ body {
 span.intro-title {
   display: inline-flex;
   font-weight: 700;
-  font-size: 1em;
-  color: var(--background-color);
+  font-size: 1.3em;
+  color: var(--border-color);
   justify-content: center;
   padding: 5px;
 
@@ -113,13 +97,13 @@ span.intro-title {
 .sub-title {
   font-weight: 700;
   color: var(--primary-color);
-  justify-content: right;
+  justify-content: center;
   padding: 5px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .main-text {
-  color: var(--background-color);
+  color: var(--border-color);
   text-align: left;
   word-wrap: break-word;
 }
@@ -134,10 +118,11 @@ span.intro-title {
   display: flex;
   position: relative;
   padding: 0 var(--default-space);
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 5px solid var(--primary-color);
   width: 100%;
   height: 100%;
   margin: 0px;
-  float: none;
 }
 .section-container {
   display: block;
@@ -148,6 +133,7 @@ span.intro-title {
   text-align: left;
   color: var(--transparent-primary-color);
   font-size: 1.2em;
+  font-weight: 700;
 }
 
 .aside-container {
@@ -163,8 +149,29 @@ span.intro-title {
 
 /*footer-custom*/
 .footer {
-  position: relative;
-  float: none;
-  display: block;
-  line-height: 25.2px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: inherit;
+  gap: 8px 2px;
+  grid-area: "footer-item footer-item footer-item"
+              " ";
 }
+.footer-item {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+.footer-item :hover {
+  cursor: pointer;
+  color: var(--aside-color);
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.copyright-text {
+  justify-content: bottom;
+}
+@import url('mediaScreen.css')

@@ -5,11 +5,22 @@
   --darken-primary-color: hsl(284, 70%, 51%);
   --lighten-primary-color: hsl(284, 70%, 75%);
   --transparent-primary-color: hsl(285, 22%, 93%);
-  --background-color: black;
+  --border-color: black;
   --aside-color: hsl(191, 92%, 29%);
+  --gradient-color:linear-gradient(
+    to right,
+    var(--darken-primary-color),
+    var(--aside-color)
+    );
+  --gradient-color-alt:linear-gradient(
+    to right,
+    var(--aside-color),
+    var(--primary-color)
+    );
   --default-space: 20px;
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -26,17 +37,16 @@ body {
   min-width: min-content;
   font-size: 1rem;
 }
+
 /*header-custom */
 .header {
-  background-color: var(--transparent-primary-color);
-  height: auto;
-  width: 100%;
+  margin-left: 0;
   display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
+  border-bottom: 1px solid var(--primary-color);
+  padding-left: inherit;
   z-index: 999;
 }
+
 .logo {
   display: flex;
   width: 80px;
@@ -44,25 +54,14 @@ body {
   padding: 5px;
   justify-content: left;
 }
-/*Header title used on index.html*/
+
+/*Header_title used on index.html*/
 .title {
   text-align: center;
   display: block;
   font-size: 1.6rem;
   color: var(--background-color);
   font-weight: 700;
-}
-.nav-item {
-  display: inline;
-  text-align: left;
-  text-decoration: none;
-  padding: .5em;
-  background-color: var(--darken-primary-color);
-  justify-content: space-between;
-  float: left;
-}
-.nav-link {
-  color: white;
 }
 .nav-item :hover {
   cursor: pointer;
@@ -73,17 +72,21 @@ body {
 /*start of forms custom*/
 /*introduction, title after header custom*/
 .intro {
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 0 var(--default-space);
   margin: 15px;
   justify-self: center;
-  background-color: var(--darken-primary-color);
+  background-image: var(--gradient-color-alt);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .forms-section {
   margin: 0 auto;
 }
-.forms-section>h1 {
+.contact-title>h1 {
   color: var(--primary-color);
   font-weight: 700;
   justify-content: center;
@@ -111,7 +114,7 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   color: var(--primary-color);
-  background-color: var(--background-color);
+  background-color: var(--border-color);
 }
 
 .fieldset div:first-child {
@@ -135,11 +138,11 @@ form input {
 .bouton {
   border: 1px solid var(--primary-color);
   padding: 8px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-radius: 0 8px 0 8px;
+  -webkit-border-radius: 0 8px 0 8px;
+  -moz-border-radius: 0 8px 0 8px;
+  -ms-border-radius: 0 8px 0 8px;
+  -o-border-radius: 0 8px 0 8px;
 }
 .bouton :hover {
   cursor: pointer;
@@ -147,5 +150,28 @@ form input {
   color: var(--background-color);
 }
 .footer {
-  background-color: var(--transparent-primary-color);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: inherit;
+  gap: 8px 2px;
+  grid-area: "footer-item footer-item footer-item"
+              " ";
+}
+.footer-item {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+.footer-item :hover {
+  cursor: pointer;
+  color: var(--aside-color);
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.copyright-text {
+  justify-content: bottom;
 }

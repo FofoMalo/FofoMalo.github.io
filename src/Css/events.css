@@ -5,8 +5,18 @@
   --darken-primary-color: hsl(284, 70%, 51%);
   --lighten-primary-color: hsl(284, 70%, 75%);
   --transparent-primary-color: hsl(285, 22%, 93%);
-  --background-color: black;
+  --border-color: black;
   --aside-color: hsl(191, 92%, 29%);
+  --gradient-color:linear-gradient(
+    to right,
+    var(--darken-primary-color),
+    var(--aside-color)
+    );
+  --gradient-color-alt:linear-gradient(
+    to right,
+    var(--aside-color),
+    var(--primary-color)
+    );
   --default-space: 20px;
   box-sizing: border-box;
 }
@@ -22,7 +32,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: var(--lighten-primary-color);
+  background-color: var(--transparent-primary-color);
   font-family: 'Open Sans', sans-serif;
   min-width: min-content;
   font-size: 1rem;
@@ -30,13 +40,10 @@ body {
 
 /*header-custom */
 .header {
-  background-color: var(--transparent-primary-color);
-  height: auto;
-  width: 100%;
+  margin-left: 0;
   display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
+  border-bottom: 1px solid var(--primary-color);
+  padding-left: inherit;
   z-index: 999;
 }
 .logo {
@@ -54,19 +61,6 @@ body {
   color: var(--background-color);
   font-weight: 700;
 }
-
-.nav-item {
-  display: inline;
-  text-align: left;
-  text-decoration: none;
-  padding: .5em;
-  background-color: var(--darken-primary-color);
-  justify-content: space-between;
-  float: left;
-}
-.nav-link {
-  color: white;
-}
 .nav-item :hover {
   cursor: pointer;
   color: var(--lighten-primary-color);
@@ -76,29 +70,70 @@ body {
 /*Main-page custom*/
 
 .intro {
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 0 var(--default-space);
   margin: 15px;
   justify-self: center;
-  background-color: var(--darken-primary-color);
+  background-image: var(--gradient-color);
   display: flex;
 }
-.main-content {
+.main-contain {
+  display: block;
+  position: relative;
+}
+.card-body {
+  margin-top: var(--default-space);
+  margin-bottom: var(--default-space);
+  border-radius: 5px;
+}
+
+.card-contain {
   background-color: var(--transparent-primary-color);
-  display: flex;
-  padding: 0 var(--default-space);
-  height: 100vh;
-  width: 100%;
-  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 8px 2px;
+  grid-area: "card card"
+             "card card";
   }
 
-.card {
-  display: flex;
+.card-body {
+  word-wrap:normal;
+  justify-content: center;
+  text-align: left;
+
 }
 
 .card-title {
   color: var(--primary-color);
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: inherit;
+  gap: 8px 2px;
+  grid-area: "footer-item footer-item footer-item"
+              " ";
+}
+.footer-item {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+.footer-item :hover {
+  cursor: pointer;
+  color: var(--aside-color);
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.copyright-text {
+  justify-content: bottom;
 }
