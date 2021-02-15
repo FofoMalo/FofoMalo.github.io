@@ -79,13 +79,13 @@ body {
   background-color: var(--transparent-primary-color);
   display: flex;
   position: relative;
-  padding: 0 var(--default-space);
+  padding: 0;
   height: 100%;
   width: 100%;
   margin: 0px;
   line-height: 25.2px;
-
   }
+
 /*intro-main page custom*/
 span.intro-title {
   display: inline-flex;

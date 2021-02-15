@@ -69,24 +69,34 @@
     </div>
     <!-- main page start here--> 
     <main class="main-content">
-      <div class="main-contain-all">
         <div class="container-fluid">
           <div class="carrousel">
-            <div id="carousel" class="carouselAjnphotos slide carousel-fade" data-ride="carousel">
+            <div id="carouselnotouching" class="carousel slide carousel"data-bs-touch="false" data-bs-interval="false">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/src/Img/jeunes-avec-portable.jpg" class="d-block w-80" 
+                    <img src="/src/Img/jeunes-avec-portable.jpg" class="d-block w-100" 
                     alt="Ados heureux avec un ordinateur">
                 </div>
                 <div class="carousel-item">
                   <img src="/src/Img/jeunes-inter.jpg" 
-                  class="d-block w-80" alt="Jeunes-se tenant la main">
+                  class="d-block w-100" alt="Jeunes-se tenant la main">
+                </div>
+                <div class="carousel-item">
+                  <img src="/src/Img/Comment-relifter-mon-vieux-PC_ok.jpg" 
+                  class="d-block w-100" alt="vieux-pc_cartoon">
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselnotouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Avant</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselnotouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Après</span>
+              </button>
             </div>
           </div>
         </div>
-      </div>
         <div class="container-text-area">
           <h2 class="sub-title">Recycler des Ordinateurs pourquoi?</h2>
           <div class="main-text-contain">
