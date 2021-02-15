@@ -55,6 +55,10 @@ body {
   color: var(--border-color);
   font-weight: 700;
 }
+.nav-item :hover {
+  cursor: pointer;
+  color: var(--lighten-primary-color);
+}
 
 /*end-header-custom */
 

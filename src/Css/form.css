@@ -39,14 +39,6 @@ body {
 }
 
 /*header-custom */
-.header {
-  margin-left: 0;
-  display: flex;
-  border-bottom: 1px solid var(--primary-color);
-  padding-left: inherit;
-  z-index: 999;
-}
-
 .logo {
   display: flex;
   width: 80px;
@@ -56,7 +48,7 @@ body {
 }
 
 /*Header_title used on index.html*/
-.title {
+.title-asso {
   text-align: center;
   display: block;
   font-size: 1.6rem;
