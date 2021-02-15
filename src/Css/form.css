@@ -48,6 +48,9 @@ body {
 }
 
 /*Header_title used on index.html*/
+.header{
+  border-bottom: 2px solid var(--primary-color);
+}
 .title-asso {
   text-align: center;
   display: block;
@@ -131,15 +134,16 @@ form input {
   border: 1px solid var(--primary-color);
   padding: 8px;
   border-radius: 0 8px 0 8px;
+  box-shadow: 0 8px 16px 0 var(--border-color) ;
   -webkit-border-radius: 0 8px 0 8px;
   -moz-border-radius: 0 8px 0 8px;
   -ms-border-radius: 0 8px 0 8px;
   -o-border-radius: 0 8px 0 8px;
 }
-.bouton :hover {
+.bouton:hover {
   cursor: pointer;
-  background-color: linear-gradient(#c262e4,#45075c );
-  color: var(--background-color);
+  background-image: var(--gradient-color-alt);
+  color: var(--border-color);
 }
 .footer {
   position: relative;
@@ -149,6 +153,7 @@ form input {
   gap: 8px 2px;
   grid-area: "footer-item footer-item footer-item"
               " ";
+  border-top: 5px solid var(--primary-color)
 }
 .footer-item {
   display: inline-block;
@@ -167,3 +172,4 @@ form input {
 .copyright-text {
   justify-content: bottom;
 }
+@import url('mediaScreen.css')

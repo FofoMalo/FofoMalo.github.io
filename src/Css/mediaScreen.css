@@ -3,13 +3,11 @@
   header {
     width: 100%;
   }
-  .d-block:last-child {
-    width: 80%;
   }
   body {
     width: 100%;
   }
   footer {
     width: 100%
-  };
+  }
 }

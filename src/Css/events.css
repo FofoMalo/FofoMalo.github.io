@@ -39,6 +39,9 @@ body {
 }
 
 /*header-custom */
+.header {
+  border-bottom: 2px solid var(--primary-color);
+}
 .logo {
   display: flex;
   width: 80px;
@@ -81,18 +84,8 @@ body {
   border-radius: 5px;
 }
 
-.card-contain {
-  background-color: var(--transparent-primary-color);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  gap: 8px 2px;
-  grid-area: "card card"
-             "card card";
-  }
-
 .card-body {
-  word-wrap:normal;
+  
   justify-content: center;
   text-align: left;
 
@@ -103,6 +96,9 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
 }
+.btn-primary {
+  background-image: var(--gradient-color-alt);
+}
 
 .footer {
   position: relative;
@@ -112,6 +108,7 @@ body {
   gap: 8px 2px;
   grid-area: "footer-item footer-item footer-item"
               " ";
+  border-top: 5px solid var(--primary-color);
 }
 .footer-item {
   display: inline-block;
@@ -130,3 +127,4 @@ body {
 .copyright-text {
   justify-content: bottom;
 }
+@import url('mediaScreen.css')

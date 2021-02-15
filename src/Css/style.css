@@ -48,6 +48,9 @@ body {
 }
 
 /*Header title*/
+.header {
+  border-bottom: 2px solid var(--primary-color);
+}
 .title-asso {
   text-align: auto;
   display: block;
