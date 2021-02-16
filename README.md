@@ -6,16 +6,16 @@
 
 ## A propos de l'association
 Nous sommes une association se donnant pour mission de recycler, les ordinateurs pour leurs donner une seconde vie.
-Une seconde vie au près de jeunes défavorisés, mais dont le besoin et l'envie de rentrer dans l'ère du numérique, est incontestable.
-notre crédo = 1 bénévole=1 ordin recyclé=1 jeune Heureux=**Futur programmeur** de talent :smile:
+Une seconde vie au près de jeunes défavorisés, dont le besoin et l'envie de rentrer dans l'ère du numérique, est incontestable.
+notre crédo = 1bénévole = 1ordinnateur-recyclé = 1jeune-Heureux = **Futur programmeur** de talent :smile:
 *Dans tous les cas, vous ferez un heureux*
 
 ## Nos activités
 Comme nous l'avons indiqué nous comptons sur les bonnes volontés, si votre ancien Pc souhaite faire un 
-deuxième Heureux? contactez- nous, nous essayerons au mieux de le relooker :) il rendra surement quelqu'un 
-très heureux quelques part dans le monde
+deuxième heureux? alors contactez- nous. Nous essayerons au mieux de le relooker :) il rendra surement quelqu'un 
+très heureux quelques part dans le monde.
 vous avez la possiblité si vous le souhaitez de rencontrer le bénéficiaire.
-nous installons après coup, des outils libre d'apprentissage, merci à tous les contributeurs OpenSource.
+Nous installons après coup, des outils libre d'apprentissage, merci à tous les contributeurs OpenSource!!!.
 Vous souhaitez faire partie de l'équipe? rien de bien compliqué 
 suivez le lien **[Association-Jeunes et Numériques]** (https://fofomalo.github.io)
 
