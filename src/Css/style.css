@@ -126,7 +126,7 @@ span.intro-title {
   position: relative;
   padding: 0 var(--default-space);
   border-top: 2px solid var(--primary-color);
-  border-bottom: 5px solid var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -157,6 +157,7 @@ span.intro-title {
 /*footer-custom*/
 .footer {
   position: absolute;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row: inherit;
