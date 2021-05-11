@@ -4,7 +4,7 @@
   --primary-color: #c262e4;
   --darken-primary-color: hsl(284, 71%, 35%);
   --lighten-primary-color: hsl(284, 41%, 84%);
-  --transparent-primary-color: hsl(285, 22%, 93%);
+  --transparent-primary-color: hsl(284, 18%, 98%);
   --border-color: black;
   --aside-color: hsl(191, 92%, 29%);
   --new-color-motion: rgb(173, 5, 5);
@@ -48,6 +48,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   min-width: min-content;
   font-size: 1rem;
+  padding: 20px;
 }
 
 /*header-custom */

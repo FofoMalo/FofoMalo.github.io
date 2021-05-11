@@ -20,9 +20,8 @@ let myImag = document.querySelector('img');
 myImag.addEventListener('click',()=>{
   let mySrc = myImag.getAttribute('src');
   if (mySrc==='jeunes-inter.jpg'){
-    myImag.setAttribute('src', 'Comment-relifter-mon-vieux-PC_ok');
-  }
-  else {
+    myImag.setAttribute('src', 'Comment-relifter-mon-vieux-PC_ok.jpg')
+  } else {
     myImag.setAttribute('src', 'jeunes-inter.jpg');
   }
 });
