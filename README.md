@@ -1,32 +1,53 @@
-# Association Jeunes et Numériques
+# Porfolio Florent Malo
 
-* A propos de nous
-* Nos activités
-* Nous contacter
+* Qui je suis?
+* Mes compétences
+* Mes activités
+* Ce que j'aime
+* Me contacter
 
-## A propos de l'association
-Nous sommes une association se donnant pour mission de recycler, les ordinateurs pour leurs donner une seconde vie.
-Une seconde vie au près de jeunes défavorisés, dont le besoin et l'envie de rentrer dans l'ère du numérique, est incontestable.
-notre crédo = 1bénévole = 1ordinnateur-recyclé = 1jeune-Heureux = **Futur programmeur** de talent :smile:
-*Dans tous les cas, vous ferez un heureux*
+## Qui je suis? 
+<details>
+<summary>Intérêssé? lire la suite</summary>
+Florent Malo, passionné de Dev (jusque là rien de bien nouveau pour un Dev   :smile:, sauf que j'ai découvert après différentes expériences professionnelles une passion pour le developpement web.
+Un bref, retour dans le passé, j'ai été longtemps responsable de terrain au sein d'une ONG americaine **IPA** spécialisé dans la randomisation. j'ai été passionné par l'impact que pouvait avoir les chiffres et leur analyse sur les décisions concernant la vie de mes concitoyens.
+Arrivé en France, par amour (marié à une magnifique femme à qui je dis merci pour tout son soutien et son accompagnement) bref parenthèse. Je m'occuperais d'une Association dans la ville de Rouen, production de visuelle, découverte d'outils de conception tel que Indesign et photoshop canva. J'apporte mon savoir faire dans la conception de bugdget et mon approche analytique quand à l'intérêt et l'engouement des participants à nos différents évènements pour y apporter des propositions quand aux objectifs poursuivis par l'association.
+Entretemps je continue à me former à titre personnelle sur Linkind-learning. Je fais des certifications d'abord en Excel (fan absolu de la maniabilité de l'outils et du potentiel), pour aller plus loin en conception de visuelle (Indesign) et là grande découverte Html5, le balisage; ma première page internet, le Css3 donner une visuelle alléchant, et une touche de *magie*, et enfin l'école et une fomation assidue dans le métier de developpeur (full-stack)
 
-## Nos activités
-Comme nous l'avons indiqué nous comptons sur les bonnes volontés, si votre ancien Pc souhaite faire un 
-deuxième heureux? alors contactez- nous. Nous essayerons au mieux de le relooker :) il rendra surement quelqu'un 
-très heureux quelques part dans le monde.
-vous avez la possiblité si vous le souhaitez de rencontrer le bénéficiaire.
-Nous installons après coup, des outils libre d'apprentissage, merci à tous les contributeurs OpenSource!!!.
-Vous souhaitez faire partie de l'équipe? rien de bien compliqué 
-suivez le lien **[Association-Jeunes et Numériques]** (https://fofomalo.github.io)
+C'est assez long mais représentatif de ce que j'ai découvert: que je passerais le reste de ma vie à faire de la programmation et toucher des gens d'une quelconque façon à distance proche, pour un lendemain meilleur. 
+je cite : 
+- La plupart des systèmes dépendaient encore d'un nœud central auquel tout devait être connecté [...]. Je voulais que le fait d'ajouter un lien soit trivial. Si c'était le cas, alors un réseau de liens pourrait se répandre uniformément dans le monde entier.
+Tim Berners-Lee, Tisser le Web: la conception originale et le destin ultime du World Wide Web" dixit Tim bernes-Lee.
 
-## Nous contacter
-En France, notre siège social à Rouen, nous sommes ouvert, et serons ravis de partager un café avec vous.
-En ligne, n'hésitez pas à aller visiter notre page, vos retours nous aiderons à améliorer.
+Si toutes ces élucubrations ne vous ont pas lasser, je vous prie de prendre connaissance de certaines de mes réalisations dans ce domaine.
+</details>
+
+## Mes compétences
+<details>
+<summary></summary>
 
 
-## la newsletters
-vous souhaitez garder le contact pour recevoir les informations de notre associations.
-laissez votre adress mail et nous nous ferons une joie de vous tenir informer de toutes les activités, que nous menons et vous serez bien entendu conviez lors de nos différentes collecte à travers le pays et lors des remises au bénéficiares.
+</details>
 
-vous souhaitez contribuer autrement? un don? pourquoi pas? :smile: vous recevez un reçu fiscal déductible et rendez un enfant heureux.
+## Mes Activités
+<details>
+<summary></summary>
 
+
+</details>
+
+
+## Ce que j'aime
+<details>
+<summary></summary>
+
+
+</details>
+
+
+## Me contacter
+<details>
+<summary></summary>
+
+
+</details>
