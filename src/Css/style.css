@@ -6,9 +6,13 @@
   --lighten-primary-color: hsl(284, 41%, 84%);
   --transparent-primary-color: hsl(284, 18%, 98%);
   --border-color: black;
+<<<<<<< HEAD
   --aside-color: hsl(191, 92%, 29%);
   --new-color-motion: rgb(173, 5, 5);
   --new-color-motion-gradient: rgb(252, 208, 14);
+=======
+  --aside-color: hsl(191, 65%, 51%);
+>>>>>>> featuresUpdate
   --gradient-color:linear-gradient(
     to right,
     var(--darken-primary-color),
@@ -46,7 +50,6 @@ html {
 body {
   background-image: var(--gradient-color-new);
   font-family: 'Open Sans', sans-serif;
-  min-width: min-content;
   font-size: 1rem;
   padding: 20px;
 }
@@ -69,7 +72,7 @@ body {
   display: block;
   font-size: 1.6rem;
   color: var(--border-color);
-  font-weight: 700;
+  font-weight: 400;
 }
 .nav-item :hover {
   cursor: pointer;
@@ -95,10 +98,17 @@ body {
   display: flex;
   position: relative;
   padding: 0;
+<<<<<<< HEAD
   height: 100vh;
   width: auto;
   margin: var(--default-space);
   line-height: 25.2px;
+=======
+  margin : 15px;
+  height: 100%;
+  width: 100%;
+  line-height: 10px;
+>>>>>>> featuresUpdate
   }
 
 /*intro-main page custom*/
@@ -112,7 +122,7 @@ span.intro-title {
 
 }
 .container-text-area {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -121,6 +131,7 @@ span.intro-title {
   color: var(--primary-color);
   justify-content: center;
   padding: 5px;
+  margin-left: 15px;
   font-size: 1.2rem;
 }
 
