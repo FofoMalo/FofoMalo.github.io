@@ -39,9 +39,9 @@ A travers le langage php, et son framework symfony, une solide base de         d
 
 ## Mes Activités
 <details>
-<summary></summary>
-
-
+<summary>Ikalou (ta maison) projet de post et de mise en relation d'achat et vente de parcelle au Burkina-Faso</summary>
+Issue de l'immigration et désireux de construire chez moi, j'ai été confronté à une situation à laquelle je pense qu'assez de personnes dans ma conditions ont dû faire face également à un moment donné étant donné la distance de nos pays de naissance et le pays d'acceuil. Les appels, tractations et palabres à n'en point m'ont incité à vouloir créer un outil utilitaire permettant à des personnes ayant en leur possession de pouvoir mettre en ligne leur terrain, et d'éventuels acheteurs de rentrer en contact avec les vendeurs. Certes facebook existe et d'autres canaux de communications. Mais j'ai voulu simplifier la vie à certaines personnes sans avoir à fouiller ou se rendre sur facebook nécessairement pour ne citer que Fb.
+Le projet plus en détails sera dispo dans un repo github libre d'accès(n'hésitez pas à y contribuer)
 </details>
 
 
@@ -51,7 +51,6 @@ A travers le langage php, et son framework symfony, une solide base de         d
 
 
 </details>
-
 
 ## Me contacter
 <details>
