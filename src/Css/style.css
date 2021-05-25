@@ -105,7 +105,7 @@ body {
 
 .main-content {
   background-color: var(--transparent-primary-color);
-  display: flex;
+  display: inline-block;
   position: relative;
   padding: 0;
   margin : 15px;
@@ -115,7 +115,7 @@ body {
 
 /*intro-main page custom*/
 span.intro-title {
-  display: inline-flex;
+  display: inline-block;
   font-weight: 700;
   font-size: 1.3em;
   color: var(--border-color);
@@ -123,11 +123,6 @@ span.intro-title {
   padding: 5px;
 
 }
-.container-text-area {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .sub-title {
   font-weight: 700;
   color: var(--primary-color);
@@ -152,13 +147,13 @@ span.intro-title {
 /*Aside-custom*/
 .aside-container {
   background-color: var(--aside-color);
-  display: flex;
+  display: inline-block;
   position: relative;
   padding: 0 var(--default-space);
   border-top: 2px solid var(--primary-color);
   border-bottom: 1px solid var(--border-color);
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100%;
   margin: 0px;
 }
 .section-container {
@@ -171,10 +166,6 @@ span.intro-title {
   color: var(--transparent-primary-color);
   font-size: 1.2em;
   font-weight: 700;
-}
-
-.aside-container {
-  display: flex;
 }
 .aside-text-contain {
   display: block;
