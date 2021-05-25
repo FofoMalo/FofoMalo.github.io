@@ -152,13 +152,8 @@ span.intro-title {
   padding: 0 var(--default-space);
   border-top: 2px solid var(--primary-color);
   border-bottom: 1px solid var(--border-color);
-<<<<<<< HEAD
-  height: 100vh;
-  width: auto;
-=======
   height: auto;
   width: 100%;
->>>>>>> featuresUpdate
   margin: 0px;
 }
 .section-container {
