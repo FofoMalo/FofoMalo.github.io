@@ -6,7 +6,7 @@
   --lighten-primary-color: hsl(284, 41%, 84%);
   --transparent-primary-color: hsl(284, 18%, 98%);
   --border-color: black;
-  --aside-color: hsl(191, 65%, 51%);
+  --aside-color: hsl(191, 62%, 29%);
   --gradient-color:linear-gradient(
     to right,
     var(--darken-primary-color),
@@ -27,7 +27,7 @@
       var(--new-color-motion-gradient),
       var(--new-color-motion)
     );
-  --default-space: 20px;
+  /*--default-space: 20px;*/
   box-sizing: border-box;
 }
 
@@ -77,14 +77,16 @@ body {
 /*Main-page custom*/
 
 .intro {
-  border: 1px solid var(--border-color);
+  border: 0px solid var(--border-color);
   border-radius: 5px;
   padding: 0 var(--default-space);
   margin: 15px;
   justify-self: center;
-  height: 50vh;
+  height: auto;
   width: auto;
-  background-image: var(--gradient-color-alt);
+}
+.containTitle {
+  display: inline;
 }
 
 .carrousel_Content {
@@ -115,10 +117,10 @@ body {
 
 /*intro-main page custom*/
 span.intro-title {
-  display: inline-block;
+  display: flex;
   font-weight: 700;
-  font-size: 1.3em;
-  color: var(--border-color);
+  font-size: 1.2em;
+  color: var(--aside-color);
   justify-content: center;
   padding: 5px;
 
@@ -130,6 +132,7 @@ span.intro-title {
   padding: 5px;
   margin-left: 15px;
   font-size: 1.2rem;
+  display: flex;
 }
 
 .main-text {
@@ -187,7 +190,7 @@ span.intro-title {
               " ";
 }
 .footer-item {
-  display: inline-block;
+  display: flex;
   padding: 5px;
   text-align: center;
   justify-content: space-between;
