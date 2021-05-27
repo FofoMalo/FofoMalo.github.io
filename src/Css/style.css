@@ -1,7 +1,7 @@
 /*font used in document */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --primary-color: #c262e4;
+  --primary-color: hsla(251, 76%, 30%, 0.918);
   --darken-primary-color: hsl(284, 71%, 35%);
   --lighten-primary-color: hsl(284, 41%, 84%);
   --transparent-primary-color: hsl(284, 18%, 98%);
@@ -121,7 +121,7 @@ span.intro-title {
   display: flex;
   font-weight: 700;
   font-size: 1.2em;
-  color: var(--aside-color);
+  color: var(--primary-color);
   justify-content: center;
   padding: 5px;
 
@@ -170,6 +170,7 @@ span.intro-title {
   color: var(--transparent-primary-color);
   font-size: 1.2em;
   font-weight: 700;
+  padding: 15px;
 }
 .aside-text-contain {
   display: block;
