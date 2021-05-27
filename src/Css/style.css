@@ -45,6 +45,7 @@ body {
   background-image: var(--gradient-color-new);
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  display: block;
 }
 
 /*header-custom */
