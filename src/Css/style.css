@@ -1,7 +1,7 @@
 /*font used in document */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --primary-color: hsla(251, 76%, 30%, 0.918);
+  --primary-color: rgba(40, 18, 135, 0.918);
   --darken-primary-color: hsl(284, 71%, 35%);
   --lighten-primary-color: hsl(284, 41%, 84%);
   --transparent-primary-color: hsl(284, 18%, 98%);
@@ -61,6 +61,7 @@ body {
 .header {
   border-bottom: 2px solid var(--primary-color);
 }
+
 .title-asso {
   text-align: auto;
   display: block;
@@ -70,7 +71,7 @@ body {
 }
 .nav-item :hover {
   cursor: pointer;
-  color: var(--lighten-primary-color);
+  color: var(--primary-color);
 }
 
 /*end-header-custom */
@@ -125,7 +126,6 @@ span.intro-title {
   justify-content: center;
   padding: 5px;
   margin: 1.2em;
-
 }
 .sub-title {
   font-weight: 700;
