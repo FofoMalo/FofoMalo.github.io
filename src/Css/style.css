@@ -124,6 +124,7 @@ span.intro-title {
   color: var(--primary-color);
   justify-content: center;
   padding: 5px;
+  margin: 1.2em;
 
 }
 .sub-title {
