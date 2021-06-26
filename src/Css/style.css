@@ -1,12 +1,12 @@
 /*font used in document */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --primary-color: rgba(40, 18, 135, 0.918);
-  --darken-primary-color: hsl(284, 71%, 35%);
-  --lighten-primary-color: hsl(284, 41%, 84%);
-  --transparent-primary-color: hsl(284, 18%, 98%);
+  --primary-color: rgba(0, 0, 0, 0.8);
+  --darken-primary-color: rgba(11, 10, 11,0.4);
+  --lighten-primary-color: rgb(255, 255, 255);
+  --transparent-primary-color: rgb(255, 255, 251);
   --border-color: black;
-  --aside-color: hsl(191, 62%, 29%);
+  --aside-color: rgb(49, 104, 175);
   --gradient-color:linear-gradient(
     to right,
     var(--darken-primary-color),
@@ -17,20 +17,11 @@
     var(--aside-color),
     var(--primary-color)
     );
-    --gradient-color-new: linear-gradient(
-      to right,
-      var(--new-color-motion),
-      var(--new-color-motion-gradient)
-    );
-    --gradient-color-new-alt: linear-gradient(
-      to right,
-      var(--new-color-motion-gradient),
-      var(--new-color-motion)
-    );
   /*--default-space: 20px;*/
   box-sizing: border-box;
 }
-
+/*end of root config*/
+/**/
 *,
 *::before,
 *::after {
@@ -60,18 +51,25 @@ body {
 /*Header title*/
 .header {
   border-bottom: 2px solid var(--primary-color);
+  position: fixed;
+  top: 2px;
+  width: 100%;
+  z-index: 99999;
 }
-
+.navbar {
+  position: relative;
+  z-index: 99;
+}
+.nav-item :hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
 .title-asso {
   text-align: auto;
   display: block;
   font-size: 1.6rem;
   color: var(--border-color);
   font-weight: 400;
-}
-.nav-item :hover {
-  cursor: pointer;
-  color: var(--primary-color);
 }
 
 /*end-header-custom */
@@ -82,10 +80,11 @@ body {
   border: 0px solid var(--border-color);
   border-radius: 5px;
   padding: 0 var(--default-space);
-  margin: 15px;
-  justify-self: center;
+  margin: auto;
   height: auto;
   width: auto;
+  top: 50px;
+  position: relative;
 }
 .containTitle {
   display: inline;
@@ -104,7 +103,7 @@ body {
 
 .main_paragraphe_1 {
   margin: 1.3em;
-  padding: 15px;
+  padding: 15px;    
 }
 
 .main-content {
@@ -151,32 +150,25 @@ span.intro-title {
 
 /*Aside-custom*/
 .aside-container {
-  background-color: var(--aside-color);
-  display: inline-block;
-  position: relative;
+  display: flex;
+  flex-flow: wrap;
   padding: 0 var(--default-space);
-  border-top: 2px solid var(--primary-color);
   border-bottom: 1px solid var(--border-color);
   height: auto;
   width: 100%;
-  margin: 0px;
-}
-.section-container {
-  display: block;
-  position: relative;
+  margin: auto;
 }
 .aside-title {
-  justify-content: center;
   text-align: left;
   color: var(--transparent-primary-color);
   font-size: 1.2em;
   font-weight: 700;
   padding: 15px;
+  background-color: var(--aside-color);
+  margin: auto;
+  width: 100%;
 }
 .aside-text-contain {
-  display: block;
-  color: var(--transparent-primary-color);
-  justify-content: left;
   text-align: left;
   word-wrap: none;
 }
