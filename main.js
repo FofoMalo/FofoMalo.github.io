@@ -1,27 +1,27 @@
-/*
-*******************************************
-let myImag = document.querySelector('img');
+const menuBtn = document.querySelector ('.menubtn');
+const hamburger = document.querySelector('.menubtn_burger');
+const nav = document.querySelector('.nav');
+const menuNav = document.querySelector('.menu-nav');
+const navItem = document.querySelectorAll('.menu-nav_item');
 
-myImag.addEventListener('click',()=>{
-  let mySrc = myImag.getAttribute('src');
-  if (mySrc === 'jeunes-inter.jpg') {
-    myImag.setAttribute('src','Comment-relifter-mon-vieux-PC_ok')
-    }
-    else {
-      myImag.setAttribute('src', 'jeunes-inter.jpg');
-    };
+let showMenu = false;
+
+menuBtn.addEventListener('click', toggleMenu);
+
+function toggleMenu(){
+  if(!showMenu){
+    hamburger.classList.add('open');
+    nav.classList.add('open');
+    menuNav.classList.add('open');
+    navItem.forEach(item => item.classList.add('open'));
+
+    showMenu = true;
+  }else {
+    hamburger.classList.remove('open');
+    nav.classList.remove('open');
+    menuNav.classList.remove('open');
+    navItem.forEach(item => item.classList.remove('open'));
+    
+    showMenu = false;
   }
-})
-erreur lors de la premiere fois de l'écriture du code corrigé le 24/04/2021, je commence à mieux comprendre un peu l'arborescence du code en js.
-je suis plus à l'aise dans la lecture et l'écriture du code, c'est plus intéréssant :);
-************************************************
-*/
-let myImag = document.querySelector('img');
-myImag.addEventListener('click',()=>{
-  let mySrc = myImag.getAttribute('src');
-  if (mySrc==='jeunes-inter.jpg'){
-    myImag.setAttribute('src', 'Comment-relifter-mon-vieux-PC_ok.jpg')
-  } else {
-    myImag.setAttribute('src', 'jeunes-inter.jpg');
-  }
-});
+}
