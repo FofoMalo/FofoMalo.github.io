@@ -1,18 +1,28 @@
-# Porfolio Florent Malo
-
-* Qui je suis?
-
-## Qui je suis?
+---
+Portfolio : Malo Florent
+Titre: Développeur Web, Web mobile
+---
+## Qui je suis? 
 <details>
-<summary>Intérêssé? lire la suite</summary>
-Je me présente Florent Malo, passionné de Dev (rien de bien nouveau pour un Dev) je ne suis pas tombé dans la "marmite" comme Obélix quand j'étais petit. Ce n'est qu'après différentes expériences professionnelles, riches et variées : 
-* la collecte de données au Burkina avec une l'ong IPA, qui est spécialisé dans la randomisation et l'analyse de data des programmes de développement dans de nombreux pays , en Afrique en Asie et en Amerique latine.
-Mais assez parlé, comment et pourquoi je suis devenu developpeur web ? la curiosité et le hazard.
+<summary>si vous avez le temps de me lire encore merci</summary>
+C'est une histoire somme toute classique : j'aurais pu dire que je suis passionné d'informatique depuis ma tendre enfance, malheureusement ce n'est pas le cas. 
+je n'ai touché à un ordinateur qu'à mes 20 ans bien sonné. Un peu réticent au début, ce ne fut pas le coup de foudre tout de suite je l'avoue. 
+Mon parcours est simple : Etude de droit à la faculté de droit de l'université de Ouaga  de **2006 à 2012**
+je créais une petite entreprise spécialisé dans la vente de matériaux et d'outillages au profits de l'administration publique. 
+Suite à cela, je travaillerais en temps que consultant et traducteur pour l'ONG International Water Management Institute. Cette mission m'amènera hors de nos frontières dans les contrés de Ségou au Mali pour une mission d'un mois.
+Je démarre ensuite au près de l'ONG IPA pour Innovation for Poverty Action en temops qu'agent collecteur de données, je deviendrais plus tard pour une durée de 2 ans Responsable terrain, chargé de récruter, former et budgetiser les missions terrains. Contribuer à une bonne collecte et assurer la qualité de données vue l'enjeu furent mes crédos durant ce temps.
+Arrivé en France en 2019, où je m'installe avec ma femme je travaille dans le domaine de l'assiociatif pendant 2 années. 
+Durant cette période, j'ai restructuré les outils mis à ma disposition avec la supervision du responsable , tant dans le domaine budgétaire que logistique. Organiser les évènements et la création d'infographie m'ont permis de faire mes premiers pas dans le design et sa subtilité.
 
-Arrivé en France,Je me suis occupé d'une Association dans la ville de Rouen, j'ai appris la "com": production de visuelle, découverte d'outils de conception tel que Indesign,  photoshop et canva. J'apporte mon savoir faire dans la conception de bugdget et mon approche analytique à savoir mésurer l'intérêt et l'engouement des participants à nos différents évènements pour y apporter des propositions dans le but d'améliorer les prestations de l'association.
-
-Entretemps, je continue à me former à titre personnelle sur Linkind-learning. Je fais des certifications d'abord en Excel (fan absolu de la maniabilité de l'outil et de son potentiel), pour aller plus loin en conception de visuel (Indesign) et là! une découverte Html5 le langage de balisage; ma première page internet, le Css3 donner un visuel alléchant, et une touche de *magie*, et enfin l'école, "Studi Digital Campus" pour une fomation assidue dans le métier de developpeur web_mobile, en tant que full-stack.
-C'est assez long comme introduction personnelle, mais représentatif de ce que j'ai découvert: que je suis heureux d'avoir mis le pied dans le monde de la programmation et de pouvoir toucher et partager avec  des personnes issues de divers milieux, pays, continents, à distance ou proche, pour un lendemain meilleur.
-Pour finir je citerais Tim Berners-Lee, de son ouvrage Tisser le Web: la conception originale et le destin ultime du World Wide Web"
-"La plupart des systèmes dépendaient encore d'un nœud central auquel tout devait être connecté [...]. Je voulais que le fait d'ajouter un lien soit trivial. Si c'était le cas, alors un réseau de liens pourrait se répandre uniformément dans le monde entier".
 </details>
+<details>
+<summary>Mon parcours Professionnel</summary>
+</details>
+<details>
+<summary>Mes diplômes</summary>
+</details>
+<details>
+<summary>Mes loisirs</summary>
+</details>
+
+
