@@ -15,7 +15,7 @@
           align-items: center;
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/img/croatie_plage.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/img/croatie_plage.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.webp");
   background-size: cover;
 }
 
@@ -194,7 +194,7 @@
   height: 50vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/img/croatie_plage.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/img/croatie_plage.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.webp");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,7 +275,7 @@
   height: 30vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/img/croatie_plage.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/img/croatie_plage.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.webp") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,7 +397,7 @@
       -ms-flex-align: center;
           align-items: center;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/img/croatie_plage.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/img/croatie_plage.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.webp");
   background-size: cover;
 }
 
@@ -536,4 +536,3 @@ footer {
   padding: 1rem;
   color: #fff;
 }
-/
