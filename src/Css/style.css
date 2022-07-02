@@ -8,7 +8,7 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 35vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -214,7 +214,9 @@
 .apropos_bio-image p {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
-  padding: 2rem;
+  padding: 0.5rem;
+  margin: 10px 0;
+
 }
 
 .apropos_bio {
@@ -227,7 +229,7 @@
 }
 
 .apropos .parcours {
-  width: 48vw;
+  width: 85vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -265,6 +267,7 @@
 .apropos .footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
+
 }
 
 .projets {
@@ -377,14 +380,15 @@
           flex-direction: column;
 }
 
-.projets footer {
-  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+.projets .footer {
+  -webkit-transform: rotate(360deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .contact {
   height: 100%;
-  padding-top: 60vh;
+  padding-top: 40vh;
+  padding-left: 2rem;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -440,10 +444,10 @@
     padding-right: 1.5rem;
   }
   .nav .menu-nav_link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .apropos_bio-image {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .projets_bio-image {
     height: 40vh;
@@ -459,6 +463,7 @@
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -513,7 +518,7 @@ main {
 
 main .social_icon {
   position: fixed;
-  bottom: 1rem;
+  bottom: 3.5rem;
   left: 1rem;
 }
 
