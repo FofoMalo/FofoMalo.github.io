@@ -17,12 +17,16 @@ Durant cette période, j'ai restructuré les outils mis à ma disposition avec l
 </details>
 <details>
 <summary>Mon parcours Professionnel</summary>
+Je suis aujourd'hui en cours de reconversion professionnel, dans le métier de développeur web. J'ai travaillé durant 4 années dans le mileu de la collecte de données au sein d'une ONG. L'essentiel des activités avaient lieu dans les régions les plus réculées de mon pays. 
 </details>
 <details>
 <summary>Mes diplômes</summary>
+j'ai obtenu un baccalauréat A4 en 2005, option philosophie lettres. j'ai mené à bien mes étdues de droits où j'ai obtenu une licence en droit des affaires. Durant ma période d'études supérieurs j'ai pu créer et gérer une Sarl dont l'activité étaient l'achat et la revente à l'Etat Burkinabè. 
+Aujoudh'hui je suis à la quête d'un diplôme sanctionnant ma formation de developpeur web web mobile sur le sol français
 </details>
 <details>
 <summary>Mes loisirs</summary>
+Amoureux de la nature, je fais des photos lors de mes différents voyages, j'ai eu la chance de voyager dans de nombreux pays en Afrique et en Europe. Pour ne citer que quelques uns il y'a le Mali, La Côte d'Ivoire, le Ghana en Afrique de l'ouest. En Europe j'ai visité le Danemark, L'Allemagne, la Belgique s
 </details>
 
 
