@@ -14,9 +14,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/src/Img/croatie_plage.png");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.png");
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))); 
+  background: linear-gradient(to right, rgb(61, 41, 52,0.9), rgb(61, 41, 52,0.3));
 }
 
 .home_name {
