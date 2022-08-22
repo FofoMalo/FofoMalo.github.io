@@ -192,9 +192,8 @@
 .apropos_bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/src/Img/croatie_plage.png");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.png");
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))); 
+  background: linear-gradient(to right, rgb(61, 41, 52,0.9), rgb(61, 41, 52,0.3));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,9 +275,8 @@
 .projets_bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("/src/Img/croatie_plage.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.png") center top;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))); 
+  background: linear-gradient(to right, rgb(61, 41, 52,0.9), rgb(61, 41, 52,0.3));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
