@@ -1,7 +1,9 @@
 ---
-Portfolio : Malo Florent
+nom : Malo Florent
 Titre: Développeur Web, Web mobile
 ---
+# Developpeur web : javaScript php mySql symfony Docker
+
 ## Qui je suis? 
 <details>
 <summary>si vous avez le temps de me lire encore merci</summary>
@@ -28,5 +30,14 @@ Aujoudh'hui je suis à la quête d'un diplôme sanctionnant ma formation de deve
 <summary>Mes loisirs</summary>
 Amoureux de la nature, je fais des photos lors de mes différents voyages, j'ai eu la chance de voyager dans de nombreux pays en Afrique et en Europe. Pour ne citer que quelques uns il y'a le Mali, La Côte d'Ivoire, le Ghana en Afrique de l'ouest. En Europe j'ai visité le Danemark, L'Allemagne, la Belgique s
 </details>
+
+
+## Mermaid
+ <div class="mermaid">
+    graph TD
+    A[Client] --> B[Load Balancer]
+    B --> C[Server01]
+    B --> D[Server02]
+  </div>
 
 
