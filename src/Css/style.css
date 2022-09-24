@@ -230,7 +230,6 @@
 .projets_bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgb(39, 39, 39,0.9), rgb(39, 39, 39,0.3));
   display: flex;
           flex-direction: column;
           align-items: center;
