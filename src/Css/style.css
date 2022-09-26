@@ -1,7 +1,13 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+*::before,
+*::after {
+box-sizing: inherit; 
 }
 
 .home {
@@ -22,6 +28,9 @@
 .home_name--last {
   color: #00C3FF;
   font-weight: 700;
+}
+.home_title {
+  color: #ff8000;
 }
 
 .menubtn {
