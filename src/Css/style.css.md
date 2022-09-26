@@ -20,14 +20,14 @@
 }
 
 .home_name--last {
-  color: #00C3FF;
-  font-weight: 700;
+  color: #00C3FF; //bleu ciel
+  font-weight: 700; // extra Bold
 }
 
 .menubtn {
   position: absolute;
   z-index: 1;
-  right: 3rem;
+  right: 1rem;
   top: 1rem;
   height: 20px;
   width: 28px;
@@ -157,11 +157,11 @@
 }
 
 .apropos {
-  padding-bottom: 9rem;
+  padding-bottom: 2rem;
 }
 
 .apropos_bio-image {
-  height: 90vh;
+  height: 50vh;
   width: 100%;
   display: flex;
           flex-direction: column;
@@ -223,8 +223,7 @@
   padding-bottom: 2rem;
 }
 .container {
-  display: flex;
-  flex-direction: column;
+  height: 20vh;
 }
 
 .projets_bio-image {
@@ -343,12 +342,6 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width:479px){
-  .apropos_bio-image {
-    height: auto;
-  }
-
-}
 
 @media screen and (min-width: 768px) {
   .menubtn {
