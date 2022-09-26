@@ -1,13 +1,7 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 * {
   margin: 0;
   padding: 0;
-}
-*::before,
-*::after {
-box-sizing: inherit; 
 }
 
 .home {
@@ -26,17 +20,14 @@ box-sizing: inherit;
 }
 
 .home_name--last {
-  color: #00C3FF;
-  font-weight: 700;
-}
-.home_title {
-  color: #ff8000;
+  color: #00C3FF; //bleu ciel
+  font-weight: 700; // extra Bold
 }
 
 .menubtn {
   position: absolute;
   z-index: 1;
-  right: 3rem;
+  right: 1rem;
   top: 1rem;
   height: 20px;
   width: 28px;
@@ -166,11 +157,11 @@ box-sizing: inherit;
 }
 
 .apropos {
-  padding-bottom: 9rem;
+  padding-bottom: 2rem;
 }
 
 .apropos_bio-image {
-  height: 90vh;
+  height: 50vh;
   width: 100%;
   display: flex;
           flex-direction: column;
@@ -232,13 +223,13 @@ box-sizing: inherit;
   padding-bottom: 2rem;
 }
 .container {
-  display: flex;
-  flex-direction: column;
+  height: 20vh;
 }
 
 .projets_bio-image {
   height: 30vh;
   width: 100%;
+  background: linear-gradient(to right, rgb(39, 39, 39,0.9), rgb(39, 39, 39,0.3));
   display: flex;
           flex-direction: column;
           align-items: center;
@@ -351,12 +342,6 @@ box-sizing: inherit;
   margin-top: 2rem;
 }
 
-@media screen and (max-width:479px){
-  .apropos_bio-image {
-    height: auto;
-  }
-
-}
 
 @media screen and (min-width: 768px) {
   .menubtn {
