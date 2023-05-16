@@ -1,3 +1,5 @@
+/* here are the old js code write for eventHandler
+
 const menuBtn = document.querySelector ('.menubtn');
 const hamburger = document.querySelector('.menubtn_burger');
 const nav = document.querySelector('.nav');
@@ -24,4 +26,25 @@ function toggleMenu(){
     
     showMenu = false;
   }
+}
+
+*/
+
+const menuBtn = document.querySelector('.menubtn');
+const hamburger = document.querySelector('.menubtn_burger');
+const nav = document.querySelector('.nav');
+const menuNav = document.querySelector('.menu-nav');
+const navItems = document.querySelectorAll('.menu-nav_item');
+
+let showMenu = false;
+
+menuBtn.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
+  showMenu = !showMenu;
+  const method = showMenu ? 'add' : 'remove';
+  hamburger.classList[method]('open');
+  nav.classList[method]('open');
+  menuNav.classList[method]('open');
+  navItems.forEach(item => item.classList[method]('open'));
 }

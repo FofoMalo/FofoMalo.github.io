@@ -457,5 +457,4 @@ footer {
   padding: 1rem;
   color: #fff;
   backdrop-filter: blur(7px);
-
 }
