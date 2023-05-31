@@ -1,10 +1,28 @@
 ---
 nom : Malo Florent
-Titre: Développeur Web, Web mobile
+Titre: Administrateur Réseaux & Système
+Date: 16/05/2023
+review_on: 16/05/2023
+topic: My Portfolio
 ---
-# Developpeur web
+# Who am I? 
 
-## Hello
+## Florent Malo
 
-J'ai commencé la programmation et le développement web en 2019. Presque dans le même temps à mon arrivée en France. Encore aujourd'hui comme la plupart des personnes dans ce domaine, je continue d'apprendre avec un certain plaisir.
-j'aime discuter d'idées avec d'autres personnes afin d'apporter un plus dans ce monde. j'estime que chacun d'entre nous est une pierre rare et unique.
+j'ai découvert le monde l'IT par ma passion pour Linux. J'ai découvert la beauté des langages de programmation, le scripting et j'ai ainsi décidé de me lancer dans les méandres de ce monde. 
+Curieux, __ho!__ on dirait que tout le monde le dit...
+En vrai, j'adore lire, partager mes expériences, découvrir (faire de la veille technologiques)!!!
+En dehors de celà, je joue au échecs, et je fais de la randonnée (la marche c'est le kiff;)
+
+### Mes technos 
+- Le Réseau : TCP/IP
+- Windows : PowerShell
+- Linux : Bash 
+- Git
+- Docker
+- SQL: mssql, mysql, posgresql
+- JavaScript
+- Php
+- Framework : Symfony
+
+

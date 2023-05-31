@@ -30,6 +30,7 @@ function toggleMenu(){
 
 */
 
+/*dernière mise à jour du fichier js : optimisation du code source, en date 31 mai 2023 */
 const menuBtn = document.querySelector('.menubtn');
 const hamburger = document.querySelector('.menubtn_burger');
 const nav = document.querySelector('.nav');
