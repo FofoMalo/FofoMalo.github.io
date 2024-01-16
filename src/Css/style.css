@@ -22,7 +22,7 @@
 }
 
 .home_name--last {
-  color: #00C3FF;
+  color: #62929E;
   font-weight: 700;
 }
 .home_title {
@@ -108,7 +108,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: #3D405B;
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
@@ -129,7 +129,7 @@
 }
 
 .nav .menu-nav_item.active > a {
-  color: #ff8000;
+  color: #f2cc8f;
 }
 
 .nav .menu-nav_link {
@@ -142,7 +142,7 @@
 }
 
 .nav .menu-nav_link:hover {
-  color: #00C3FF;
+  color: #62929E;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -165,8 +165,9 @@
   padding-bottom: 9rem;
 }
 
+
 .apropos_bio-image {
-  height: 90vh;
+  height: 38vh;
   width: 100%;
   display: flex;
           flex-direction: column;
@@ -174,8 +175,9 @@
           justify-content: flex-end;
 }
 
+
 .apropos_bio-image p {
-          margin-block-end: 2rem;
+  margin-block-end: 1.5rem;
   padding: 0.5rem;
   margin: 10px 0;
 
@@ -201,12 +203,12 @@
 .apropos .parcours_parcour {
   background: rgba(40, 33, 33, 0.685);
   padding: 0.5rem;
-  border-bottom: 5px solid #00C3FF;
+  border-bottom: 5px solid #f2cc8f;
 }
 
 .apropos .parcours_parcour h2, .apropos .parcours_parcour h3 {
   margin: 0.5rem 0;
-  color: #ff8000;
+  color: #f2cc8f;
 }
 
 .apropos .parcours_parcour h6 {
@@ -233,7 +235,7 @@
 }
 
 .projets_bio-image {
-  height: 30vh;
+  height: 38vh;
   width: 100%;
   display: flex;
           flex-direction: column;
@@ -257,7 +259,7 @@
 
 .projets_item {
   position: relative;
-  border-bottom: 5px solid #00C3FF;
+  border-bottom: 5px solid #62929E;
   overflow: hidden;
   cursor: pointer;
 }
@@ -273,7 +275,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 195, 255, 0.5);
+  background: #62929E;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -306,7 +308,7 @@
 }
 
 .projets_btn:hover {
-  color: #ff8000;
+  color: #f2cc8f;
 }
 
 .projets .social-icon {
@@ -326,8 +328,7 @@
   display: flex;
           flex-direction: column;
           align-items: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/src/Img/croatie_plage.png");
-  background-size: cover;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
 }
 
 .contact h2 {
@@ -409,8 +410,8 @@
 }
 
 body {
-  background: rgba(39, 39, 39, 0.50);
-  color: #fff;
+  background: #3D405B;
+  color: #ffff;
   height: 100vh;
   font-family: 'Open-sans', Consolas, monospace, sans-serif;
   line-height: 1;
@@ -426,7 +427,7 @@ a {
 }
 
 .text-secondaire {
-  color: #00C3FF;
+  color: #62929E;
 }
 
 header {
@@ -456,7 +457,7 @@ main .social_icon a {
 }
 
 main .social_icon a:hover {
-  color: #ff8000;
+  color: #f2cc8f;
 }
 
 footer {
