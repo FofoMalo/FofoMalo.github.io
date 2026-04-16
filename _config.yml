@@ -1,1 +1,9 @@
-theme: jekyll-theme-slate
+title: Portfolio Florent Malo
+description: Portfolio de Florent Malo, administrateur réseaux et systèmes, développeur full-stack.
+url: "https://fofomalo.github.io"
+baseurl: ""
+lang: fr
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
