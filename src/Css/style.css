@@ -6,12 +6,75 @@
   padding: 0;
 }
 
+body {
+  background: #3D405B;
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Open Sans', Consolas, monospace, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-secondaire {
+  color: #62929E;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main .social_icon {
+  position: fixed;
+  bottom: 3.5rem;
+  left: 1rem;
+  backdrop-filter: blur(7px);
+}
+
+main .social_icon a {
+  padding: 0.4rem;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+
+main .social_icon a:hover {
+  color: #f2cc8f;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
+  backdrop-filter: blur(7px);
+}
+
+/* ---- Home ---- */
+
 .home {
   height: 100%;
   padding-top: 35vh;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(to right, rgb(39, 39, 39,0.9), rgb(39, 39, 39,0.3));
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
 }
 
 .home_name {
@@ -25,13 +88,16 @@
   color: #62929E;
   font-weight: 700;
 }
+
 .home_title {
   color: #ff8000;
 }
 
+/* ---- Menu burger ---- */
+
 .menubtn {
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   right: 3rem;
   top: 1rem;
   height: 20px;
@@ -84,6 +150,8 @@
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
+/* ---- Navigation ---- */
+
 .nav {
   position: absolute;
   top: 0;
@@ -92,8 +160,8 @@
   opacity: 1;
   visibility: hidden;
   will-change: background, opacity;
-    background-color: rgba(39, 39, 39,0.10);
-  box-shadow: 0 -3px 7px 0 rgb(39 39 39 / 6%), 0 4px 10px 0 rgb(39 39 39 /6%) ;
+  background-color: rgba(39, 39, 39, 0.10);
+  box-shadow: 0 -3px 7px 0 rgba(39, 39, 39, 0.06), 0 4px 10px 0 rgba(39, 39, 39, 0.06);
   backdrop-filter: blur(7px);
 }
 
@@ -116,16 +184,16 @@
 }
 
 .nav .menu-nav.open {
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .nav .menu-nav_item {
-          transform: translateX(100vw);
+  transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav_item.open {
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .nav .menu-nav_item.active > a {
@@ -141,46 +209,46 @@
   transition: all 0.5s ease-in-out;
 }
 
-.nav .menu-nav_link:hover {
+.nav .menu-nav_link:hover,
+.nav .menu-nav_link:focus {
   color: #62929E;
+  outline: none;
 }
 
 .menu-nav_item:nth-child(1) {
-          transition-delay: 0.25s;
+  transition-delay: 0.25s;
 }
 
 .menu-nav_item:nth-child(2) {
-          transition-delay: 0.35s;
+  transition-delay: 0.35s;
 }
 
 .menu-nav_item:nth-child(3) {
-          transition-delay: 0.45s;
+  transition-delay: 0.45s;
 }
 
 .menu-nav_item:nth-child(4) {
-          transition-delay: 0.55s;
+  transition-delay: 0.55s;
 }
+
+/* ---- À propos ---- */
 
 .apropos {
   padding-bottom: 9rem;
 }
 
-
 .apropos_bio-image {
   height: 38vh;
   width: 100%;
   display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-
 .apropos_bio-image p {
-  margin-block-end: 1.5rem;
   padding: 0.5rem;
   margin: 10px 0;
-
 }
 
 .apropos_bio {
@@ -196,7 +264,7 @@
   width: 90vw;
   margin: 5rem auto 0 auto;
   display: grid;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
 
@@ -206,29 +274,24 @@
   border-bottom: 5px solid #f2cc8f;
 }
 
-.apropos .parcours_parcour h2, .apropos .parcours_parcour h3 {
+.apropos .parcours_parcour h2,
+.apropos .parcours_parcour h3 {
   margin: 0.5rem 0;
   color: #f2cc8f;
 }
 
-.apropos .parcours_parcour h6 {
+.apropos .parcours_parcour h4 {
   margin: 0.3rem 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-weight: 400;
 }
 
-.apropos .social-icon {
-  display: flex;
-          flex-direction: column;
-}
-
-.apropos .footer {
-          transform: rotate(90deg) translate(-3rem, -5rem);
-
-}
+/* ---- Projets ---- */
 
 .projets {
   padding-bottom: 2rem;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -238,9 +301,9 @@
   height: 38vh;
   width: 100%;
   display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .projets_bio-image .text-secondaire {
@@ -251,9 +314,8 @@
 .projets_items {
   width: 100vw;
   margin: 2rem auto 0 auto;
-  display: -ms-grid;
   display: grid;
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
@@ -266,6 +328,7 @@
 
 .projets_item img {
   width: 100%;
+  display: block;
 }
 
 .projets_item::after {
@@ -296,8 +359,8 @@
   width: 100%;
   z-index: 1;
   display: grid;
-      grid-template-columns: 1fr;
-          align-items: center;
+  grid-template-columns: 1fr;
+  align-items: center;
   text-align: center;
 }
 
@@ -307,18 +370,12 @@
   transition: all 0.5s ease-in-out;
 }
 
-.projets_btn:hover {
+.projets_btn:hover,
+.projets_btn:focus {
   color: #f2cc8f;
 }
 
-.projets .social-icon {
-  display: flex;
-          flex-direction: column;
-}
-
-.projets .footer {
-          transform: rotate(90deg) translate(-3rem, -5rem);
-}
+/* ---- Contact ---- */
 
 .contact {
   height: 100%;
@@ -326,19 +383,19 @@
   padding-left: 2rem;
   overflow: hidden;
   display: flex;
-          flex-direction: column;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
 }
 
-.contact h2 {
+.contact h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
 .contact_liste {
   display: grid;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
 }
@@ -348,58 +405,68 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width:479px){
+/* ---- Responsive ---- */
+
+@media screen and (max-width: 479px) {
   .apropos_bio-image {
     height: auto;
   }
-
 }
 
 @media screen and (min-width: 768px) {
   .menubtn {
     visibility: hidden;
   }
+
   .nav {
     visibility: visible;
   }
+
   .nav .menu-nav {
     display: block;
-            transform: translateY(0);
+    transform: translateY(0);
     height: 100%;
     background: transparent;
     text-align: right;
   }
+
   .nav .menu-nav_item {
     display: inline;
     padding-right: 1.5rem;
   }
+
   .nav .menu-nav_link {
     font-size: 1.2rem;
   }
+
   .apropos_bio-image {
     font-size: 1.2rem;
   }
+
   .projets_bio-image {
     height: 40vh;
   }
+
   .projets_items {
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+
   .projets .text-secondaire {
     font-size: 3rem;
   }
+
   .contact_liste {
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
   .projets_items {
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
+
   .contact_liste {
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -407,67 +474,4 @@
   .projets_bio-image {
     height: 50vh;
   }
-}
-
-body {
-  background: #3D405B;
-  color: #ffff;
-  height: 100vh;
-  font-family: 'Open-sans', Consolas, monospace, sans-serif;
-  line-height: 1;
-}
-
-h1, h2, h3 {
-  font-weight: 400;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.text-secondaire {
-  color: #62929E;
-}
-
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  padding: 1rem;
-}
-
-main {
-  height: 100%;
-  width: 100%;
-}
-
-main .social_icon {
-  position: fixed;
-  bottom: 3.5rem;
-  left: 1rem;
-  backdrop-filter: blur(7px);
-
-}
-
-main .social_icon a {
-  padding: 0.4rem;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-main .social_icon a:hover {
-  color: #f2cc8f;
-}
-
-footer {
-  font-size: 1rem;
-  position: fixed;
-  bottom: 0.4rem;
-  right: 1rem;
-  text-align: right;
-  padding: 1rem;
-  color: #fff;
-  backdrop-filter: blur(7px);
-
 }

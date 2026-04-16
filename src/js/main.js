@@ -1,36 +1,3 @@
-/* here are the old js code write for eventHandler
-
-const menuBtn = document.querySelector ('.menubtn');
-const hamburger = document.querySelector('.menubtn_burger');
-const nav = document.querySelector('.nav');
-const menuNav = document.querySelector('.menu-nav');
-const navItem = document.querySelectorAll('.menu-nav_item');
-
-let showMenu = false;
-
-menuBtn.addEventListener('click', toggleMenu);
-
-function toggleMenu(){
-  if(!showMenu){
-    hamburger.classList.add('open');
-    nav.classList.add('open');
-    menuNav.classList.add('open');
-    navItem.forEach(item => item.classList.add('open'));
-
-    showMenu = true;
-  }else {
-    hamburger.classList.remove('open');
-    nav.classList.remove('open');
-    menuNav.classList.remove('open');
-    navItem.forEach(item => item.classList.remove('open'));
-    
-    showMenu = false;
-  }
-}
-
-*/
-
-/*dernière mise à jour du fichier js : optimisation du code source, en date 31 mai 2023 */
 const menuBtn = document.querySelector('.menubtn');
 const hamburger = document.querySelector('.menubtn_burger');
 const nav = document.querySelector('.nav');
@@ -41,9 +8,24 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
+menuBtn.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' || e.key === ' ') {
+    e.preventDefault();
+    toggleMenu();
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && showMenu) {
+    toggleMenu();
+    menuBtn.focus();
+  }
+});
+
 function toggleMenu() {
   showMenu = !showMenu;
   const method = showMenu ? 'add' : 'remove';
+  menuBtn.setAttribute('aria-expanded', showMenu);
   hamburger.classList[method]('open');
   nav.classList[method]('open');
   menuNav.classList[method]('open');
