@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title }} — Florent Malo">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ site.url }}/src/Img/github_foto.jpg">
+  <link rel="icon" type="image/png" href="/src/Img/github_foto.jpg">
+  <link rel="stylesheet" href="/src/Css/style.css">
+  <title>{{ page.title }} | Florent Malo</title>
+</head>
+<body>
+  <header>
+    <div class="menubtn" role="button" tabindex="0" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span class="menubtn_burger"></span>
+    </div>
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav_item{% if page.url == '/' or page.url == '/index.html' %} active{% endif %}">
+          <a href="/index.html" class="menu-nav_link">Accueil</a>
+        </li>
+        <li class="menu-nav_item{% if page.url contains 'a_propos' %} active{% endif %}">
+          <a href="/src/view/a_propos.html" class="menu-nav_link">Qui je suis?</a>
+        </li>
+        <li class="menu-nav_item{% if page.url contains 'projets' %} active{% endif %}">
+          <a href="/src/view/projets.html" class="menu-nav_link">Mes projets</a>
+        </li>
+        <li class="menu-nav_item{% if page.url contains 'blog' %} active{% endif %}">
+          <a href="/blog/" class="menu-nav_link">Blog</a>
+        </li>
+        <li class="menu-nav_item{% if page.url contains 'contact' %} active{% endif %}">
+          <a href="/src/view/contact.html" class="menu-nav_link">Mon contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+    <div class="social_icon">
+      <a href="https://twitter.com/malo_florent" rel="noopener noreferrer" aria-label="Twitter de Florent Malo">
+        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://linkedin.com/in/maloflorent" rel="noopener noreferrer" aria-label="LinkedIn de Florent Malo">
+        <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/FofoMalo" rel="noopener noreferrer" aria-label="GitHub de Florent Malo">
+        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://fofomalo.github.io" rel="noopener noreferrer" aria-label="Site de Florent Malo">
+        <i class="fab fa-dev fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <footer>&copy; Copyright Florent Malo 2021 @ 2024</footer>
+  </main>
+
+  <script src="https://kit.fontawesome.com/d25f90b307.js" crossorigin="anonymous"></script>
+  <script src="/src/js/main.js"></script>
+</body>
+</html>
